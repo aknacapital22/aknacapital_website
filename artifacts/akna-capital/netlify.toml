@@ -1,7 +1,7 @@
 [build]
   base = "artifacts/akna-capital"
   command = "pnpm install && pnpm run build"
-  publish = "artifacts/akna-capital/dist"
+  publish = "dist"
 
 # Canonical domain redirects — all non-canonical variants → https://www.aknacapital.com
 [[redirects]]
