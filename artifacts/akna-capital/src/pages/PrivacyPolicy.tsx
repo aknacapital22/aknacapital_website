@@ -8,8 +8,8 @@ const privacySchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aknacapital.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://www.aknacapital.com/privacy-policy" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aknacapital.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://aknacapital.com/privacy-policy" },
     ],
   },
 ];

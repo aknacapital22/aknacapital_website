@@ -11,7 +11,7 @@ interface SEOProps {
   noindex?: boolean;
 }
 
-const BASE_URL = "https://www.aknacapital.com";
+const BASE_URL = "https://aknacapital.com";
 const DEFAULT_OG_IMAGE = "/logo.jpg";
 
 export function SEO({

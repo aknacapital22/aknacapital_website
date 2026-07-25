@@ -73,21 +73,21 @@ const aboutSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aknacapital.com/" },
-      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://www.aknacapital.com/about" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aknacapital.com/" },
+      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://aknacapital.com/about" },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "About AKNA Capital",
-    "url": "https://www.aknacapital.com/about",
+    "url": "https://aknacapital.com/about",
     "description":
       "AKNA Capital is a SEBI Registered Research Analyst helping individuals, families, and businesses grow wealth through data-driven, algorithm-backed equity research and wealth advisory.",
     "publisher": {
       "@type": "Organization",
       "name": "AKNA Capital",
-      "url": "https://www.aknacapital.com/",
+      "url": "https://aknacapital.com/",
     },
   },
   ...team.map((member) => ({
@@ -95,8 +95,8 @@ const aboutSchemas = [
     "@type": "Person",
     "name": member.name.replace(/^CA\s+/, ""),
     "jobTitle": member.jobTitle,
-    "worksFor": { "@type": "Organization", "name": "AKNA Capital", "url": "https://www.aknacapital.com/" },
-    "url": "https://www.aknacapital.com/about#team",
+    "worksFor": { "@type": "Organization", "name": "AKNA Capital", "url": "https://aknacapital.com/" },
+    "url": "https://aknacapital.com/about#team",
   })),
 ];
 

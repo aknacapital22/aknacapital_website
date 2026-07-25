@@ -3,12 +3,12 @@
   command = "pnpm install && pnpm run build"
   publish = "dist"
 
-# Domain aliasing (aknacapital.com -> www.aknacapital.com) and HTTPS
+# Domain aliasing (www.aknacapital.com -> aknacapital.com) and HTTPS
 # enforcement are handled automatically by Netlify's domain management
-# (www.aknacapital.com is set as the primary domain there). Manual
-# redirects duplicating that here caused a redirect loop, so don't
-# re-add them — configure canonical-domain behavior in the Netlify UI
-# (Domain management) instead of here.
+# (aknacapital.com is set as the primary domain there). Manual redirects
+# duplicating that here caused a redirect loop, so don't re-add them —
+# configure canonical-domain behavior in the Netlify UI (Domain
+# management) instead of here.
 
 # SPA catch-all — serves index.html for all routes (client-side routing)
 [[redirects]]

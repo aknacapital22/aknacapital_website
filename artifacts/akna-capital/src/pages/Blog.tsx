@@ -21,21 +21,21 @@ const blogSchemas = [
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "AKNA Capital Blog",
-    "url": "https://www.aknacapital.com/blog",
+    "url": "https://aknacapital.com/blog",
     "description":
       "Insights on equity research, mutual fund investing, wealth planning, insurance, and algo-trading from the AKNA Capital team.",
     "publisher": {
       "@type": "Organization",
       "name": "AKNA Capital",
-      "url": "https://www.aknacapital.com/",
+      "url": "https://aknacapital.com/",
     },
   },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aknacapital.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.aknacapital.com/blog" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aknacapital.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aknacapital.com/blog" },
     ],
   },
 ];

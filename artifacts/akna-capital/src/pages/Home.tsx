@@ -16,10 +16,10 @@ const organizationSchema = {
   "@type": "FinancialService",
   "name": "AKNA Capital",
   "alternateName": "AKNA Capital Ltd",
-  "url": "https://www.aknacapital.com/",
+  "url": "https://aknacapital.com/",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://www.aknacapital.com/logo.jpg",
+    "url": "https://aknacapital.com/logo.jpg",
     "width": 500,
     "height": 500,
   },
@@ -58,14 +58,14 @@ const webSiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "AKNA Capital",
-  "url": "https://www.aknacapital.com/",
+  "url": "https://aknacapital.com/",
   "description":
     "AKNA Capital helps individuals, families, and businesses grow wealth through equity research, mutual fund investing, private wealth management, stockmarket education, insurance, and algo-trading.",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://www.aknacapital.com/blog?q={search_term_string}",
+      "urlTemplate": "https://aknacapital.com/blog?q={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },
@@ -90,7 +90,7 @@ const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "AKNA Capital | Wealth Advisory",
-  "url": "https://www.aknacapital.com/",
+  "url": "https://aknacapital.com/",
   "description":
     "AKNA Capital makes financial planning and equity investing easy. We grow wealth for individuals, families, and businesses using fundamental, technical and quantitative models, data analytics, and AI. SEBI Registered Research Analyst INH000023515.",
   "speakable": {
@@ -100,7 +100,7 @@ const webPageSchema = {
   "about": {
     "@type": "Organization",
     "name": "AKNA Capital",
-    "url": "https://www.aknacapital.com/",
+    "url": "https://aknacapital.com/",
   },
 };
 

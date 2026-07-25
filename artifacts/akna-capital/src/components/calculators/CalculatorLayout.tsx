@@ -35,17 +35,17 @@ export function CalculatorLayout({
     name: title,
     applicationCategory: "FinanceApplication",
     description: metaDescription,
-    url: `https://www.aknacapital.com/market-tools/${slug}`,
-    provider: { "@type": "Organization", name: "AKNA Capital", url: "https://www.aknacapital.com/" },
+    url: `https://aknacapital.com/market-tools/${slug}`,
+    provider: { "@type": "Organization", name: "AKNA Capital", url: "https://aknacapital.com/" },
   };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.aknacapital.com/" },
-      { "@type": "ListItem", position: 2, name: "Market Tools", item: "https://www.aknacapital.com/market-tools" },
-      { "@type": "ListItem", position: 3, name: title, item: `https://www.aknacapital.com/market-tools/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://aknacapital.com/" },
+      { "@type": "ListItem", position: 2, name: "Market Tools", item: "https://aknacapital.com/market-tools" },
+      { "@type": "ListItem", position: 3, name: title, item: `https://aknacapital.com/market-tools/${slug}` },
     ],
   };
 

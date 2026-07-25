@@ -8,8 +8,8 @@ const termsSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aknacapital.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Terms & Conditions", "item": "https://www.aknacapital.com/terms-of-service" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aknacapital.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Terms & Conditions", "item": "https://aknacapital.com/terms-of-service" },
     ],
   },
 ];

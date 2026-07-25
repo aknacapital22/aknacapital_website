@@ -171,7 +171,7 @@ export default function BlogPost() {
   const prevPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : null;
   const nextPost = currentIndex < blogPosts.length - 1 ? blogPosts[currentIndex + 1] : null;
 
-  const postUrl = `https://www.aknacapital.com/blog/${post.slug}`;
+  const postUrl = `https://aknacapital.com/blog/${post.slug}`;
 
   const isPersonAuthor = post.author.name !== "AKNA Capital Research Desk";
 
@@ -186,21 +186,21 @@ export default function BlogPost() {
             "@type": "Person",
             "name": post.author.name.replace(/^CA\s+/, ""),
             "jobTitle": post.author.title,
-            "worksFor": { "@type": "Organization", "name": "AKNA Capital", "url": "https://www.aknacapital.com/" },
-            "url": "https://www.aknacapital.com/about#team",
+            "worksFor": { "@type": "Organization", "name": "AKNA Capital", "url": "https://aknacapital.com/" },
+            "url": "https://aknacapital.com/about#team",
           }
         : {
             "@type": "Organization",
             "name": "AKNA Capital",
-            "url": "https://www.aknacapital.com/",
+            "url": "https://aknacapital.com/",
           },
       "publisher": {
         "@type": "Organization",
         "name": "AKNA Capital",
-        "url": "https://www.aknacapital.com/",
+        "url": "https://aknacapital.com/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.aknacapital.com/logo.jpg",
+          "url": "https://aknacapital.com/logo.jpg",
           "width": 500,
           "height": 500,
         },
@@ -214,7 +214,7 @@ export default function BlogPost() {
       },
       "image": {
         "@type": "ImageObject",
-        "url": "https://www.aknacapital.com/logo.jpg",
+        "url": "https://aknacapital.com/logo.jpg",
         "width": 500,
         "height": 500,
       },
@@ -226,8 +226,8 @@ export default function BlogPost() {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aknacapital.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.aknacapital.com/blog" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aknacapital.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aknacapital.com/blog" },
         { "@type": "ListItem", "position": 3, "name": post.title, "item": postUrl },
       ],
     },

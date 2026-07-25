@@ -45,4 +45,4 @@ User-agent: ia_archiver
 Allow: /
 
 # Sitemaps
-Sitemap: https://www.aknacapital.com/sitemap.xml
+Sitemap: https://aknacapital.com/sitemap.xml

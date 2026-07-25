@@ -44,8 +44,8 @@ const marketToolsSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aknacapital.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Market Tools", "item": "https://www.aknacapital.com/market-tools" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aknacapital.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Market Tools", "item": "https://aknacapital.com/market-tools" },
     ],
   },
 ];

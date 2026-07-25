@@ -9,21 +9,21 @@ const contactSchemas = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.aknacapital.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.aknacapital.com/contact" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aknacapital.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://aknacapital.com/contact" },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contact AKNA Capital",
-    "url": "https://www.aknacapital.com/contact",
+    "url": "https://aknacapital.com/contact",
     "description":
       "Contact AKNA Capital for a wealth advisory consultation. We respond within a day.",
     "publisher": {
       "@type": "Organization",
       "name": "AKNA Capital",
-      "url": "https://www.aknacapital.com/",
+      "url": "https://aknacapital.com/",
       "telephone": "+91-8989496800",
       "email": "aknacapital@gmail.com",
     },

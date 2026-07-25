@@ -86,10 +86,10 @@ export function BusinessDetailPage({ config }: { config: BusinessDetailConfig })
     "@type": "Service",
     name: config.h1,
     description: config.metaDescription,
-    provider: { "@type": "Organization", name: "AKNA Capital", url: "https://www.aknacapital.com/" },
+    provider: { "@type": "Organization", name: "AKNA Capital", url: "https://aknacapital.com/" },
     areaServed: "IN",
     serviceType: config.h1,
-    url: `https://www.aknacapital.com/businesses/${config.slug}`,
+    url: `https://aknacapital.com/businesses/${config.slug}`,
   };
 
   const faqSchema = {
@@ -106,9 +106,9 @@ export function BusinessDetailPage({ config }: { config: BusinessDetailConfig })
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.aknacapital.com/" },
-      { "@type": "ListItem", position: 2, name: "Businesses", item: "https://www.aknacapital.com/businesses/research-ranking" },
-      { "@type": "ListItem", position: 3, name: config.h1, item: `https://www.aknacapital.com/businesses/${config.slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://aknacapital.com/" },
+      { "@type": "ListItem", position: 2, name: "Businesses", item: "https://aknacapital.com/businesses/research-ranking" },
+      { "@type": "ListItem", position: 3, name: config.h1, item: `https://aknacapital.com/businesses/${config.slug}` },
     ],
   };
 
