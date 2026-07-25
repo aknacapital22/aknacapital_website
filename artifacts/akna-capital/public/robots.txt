@@ -1,2 +1,48 @@
 User-agent: *
 Allow: /
+
+# Block irrelevant paths
+Disallow: /api/
+Disallow: /_netlify/
+
+# ── AI Crawlers (explicitly welcome) ───────────────────────────────────────────
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Google AI (Gemini, Search Generative Experience)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Microsoft Copilot / Bing AI
+User-agent: Bingbot
+Allow: /
+
+# Common AI agent
+User-agent: CCBot
+Allow: /
+
+# Amazon Alexa
+User-agent: ia_archiver
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.aknacapital.com/sitemap.xml

@@ -1,0 +1,10 @@
+packages:
+  "framer-motion": "For premium smooth entry animations and scroll-triggered reveals"
+  "react-hook-form": "For robust contact form state management"
+  "@hookform/resolvers": "For Zod schema validation integration"
+  "zod": "For contact form validation"
+
+notes:
+  - This is a purely frontend site, so the contact form submission uses a mock delay and toast notification instead of a real API call.
+  - Light theme with a gold/amber primary accent to signal trust and wealth, matching the AKNA Capital brand.
+  - Content adapted from the AKNA Capital wealth advisory brief (business lines, testimonials, FAQ, SEBI RA registration).

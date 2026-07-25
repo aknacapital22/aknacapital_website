@@ -5,23 +5,27 @@ version = "1.0.0"
 id = "artifacts/akna-capital"
 router = "path"
 
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
 [[services]]
 name = "web"
 paths = [ "/" ]
-localPort = 22992
+localPort = 23015
 
 [services.development]
 run = "pnpm --filter @workspace/akna-capital run dev"
 
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/akna-capital", "run", "build" ]
-serve = "static"
 publicDir = "artifacts/akna-capital/dist/public"
+serve = "static"
 
 [[services.production.rewrites]]
 from = "/*"
 to = "/index.html"
 
 [services.env]
-PORT = "22992"
+PORT = "23015"
 BASE_PATH = "/"
