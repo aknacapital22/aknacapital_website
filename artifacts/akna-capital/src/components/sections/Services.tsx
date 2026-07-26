@@ -3,12 +3,12 @@ import { TrendingUp, PieChart, Gem, GraduationCap, ShieldCheck, Bot, ArrowRight 
 import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
 
-const businesses = [
+const services = [
   {
     title: "Research and Ranking",
     tagline: "Suitable for an investment surplus of 3 Lacs to 1 Crore. An investment plan for 5-6 years.",
     icon: TrendingUp,
-    href: "/businesses/research-ranking",
+    href: "/services/research-ranking",
     items: [
       { title: "Ranked stock recommendations", description: "Backed by our in-house Quant Engine and 30+ smart algorithms." },
       { title: "Fundamental & technical research", description: "Every recommendation comes with the reasoning behind it." },
@@ -19,7 +19,7 @@ const businesses = [
     title: "Mutual Fund Investing",
     tagline: "Stop your normal SIP and start enhanced SIP with our algorithms.",
     icon: PieChart,
-    href: "/businesses/mutual-fund-investing",
+    href: "/services/mutual-fund-investing",
     items: [
       { title: "Enhanced SIP", description: "Algorithm assisted fund selection and rebalancing, not a fixed SIP amount forever." },
       { title: "Goal based investing", description: "Map your mutual fund investments to real goals like retirement or education." },
@@ -30,7 +30,7 @@ const businesses = [
     title: "AKNA Private Wealth",
     tagline: "Suitable for an investment surplus of 1 Crore & above. An investment plan for 8 – 10 years.",
     icon: Gem,
-    href: "/businesses/akna-private-wealth",
+    href: "/services/akna-private-wealth",
     items: [
       { title: "Dedicated wealth advisory", description: "A tailored, high-touch approach for high net worth investors." },
       { title: "Diversified strategy", description: "Equity, mutual funds, and alternate assets working together." },
@@ -41,7 +41,7 @@ const businesses = [
     title: "Stockmarket Workshop",
     tagline: "Learn all about fundamental, technical and quantitative investing.",
     icon: GraduationCap,
-    href: "/businesses/stockmarket-workshop",
+    href: "/services/stockmarket-workshop",
     items: [
       { title: "Fundamental analysis", description: "Learn to read businesses, not just charts." },
       { title: "Technical analysis", description: "Understand price action, trends, and market timing." },
@@ -52,7 +52,7 @@ const businesses = [
     title: "Insurance",
     tagline: "Get the right Health and Term Life Insurance.",
     icon: ShieldCheck,
-    href: "/businesses/insurance",
+    href: "/services/insurance",
     items: [
       { title: "Term life insurance", description: "Protect your family's financial future for the years that matter most." },
       { title: "Health insurance", description: "Coverage matched to your family's needs and medical history." },
@@ -63,7 +63,7 @@ const businesses = [
     title: "Algo-Trading",
     tagline: "Make your trading automated using your rules and logic.",
     icon: Bot,
-    href: "/businesses/algo-trading",
+    href: "/services/algo-trading",
     items: [
       { title: "Rule based automation", description: "Convert your own trading logic into an automated strategy." },
       { title: "Backtesting", description: "See how a strategy would have performed before you run it live." },
@@ -85,9 +85,9 @@ const itemVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.0, 0.0, 0.58, 1.0] as const } },
 };
 
-export function Businesses() {
+export function Services() {
   return (
-    <section id="businesses" className="py-14 md:py-24 relative bg-muted/30 border-y border-border/40 section-lazy">
+    <section id="services" className="py-14 md:py-24 relative bg-muted/30 border-y border-border/40 section-lazy">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -100,7 +100,7 @@ export function Businesses() {
             What we do?
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4 text-foreground">
-            Our <span className="text-primary">Businesses</span>
+            Our <span className="text-primary">Services</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             This is how our Research Analysts can help you. Pick what fits your goals.
@@ -114,7 +114,7 @@ export function Businesses() {
           viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-1 lg:grid-cols-2 gap-6"
         >
-          {businesses.map((biz, index) => {
+          {services.map((biz, index) => {
             const Icon = biz.icon;
             return (
               <motion.div key={index} variants={itemVariants}>

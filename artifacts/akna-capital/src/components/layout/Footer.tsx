@@ -50,25 +50,22 @@ export function Footer() {
                 <Link href="/terms-of-service" className="text-background/70 hover:text-primary transition-colors text-sm">Terms &amp; Conditions</Link>
               </li>
               <li>
-                <Link href="/businesses/research-ranking" className="text-background/70 hover:text-primary transition-colors text-sm">Services</Link>
-              </li>
-              <li>
-                <Link href="/market-tools" className="text-background/70 hover:text-primary transition-colors text-sm">Features</Link>
+                <Link href="/market-tools" className="text-background/70 hover:text-primary transition-colors text-sm">Market Tools</Link>
               </li>
             </ul>
           </div>
 
-          {/* Column 3 — Businesses */}
+          {/* Column 3 — Services */}
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-background/50 mb-6">Businesses</h4>
+            <h4 className="text-sm font-bold uppercase tracking-widest text-background/50 mb-6">Services</h4>
             <ul className="space-y-3">
               {[
-                { label: "Research and Ranking", href: "/businesses/research-ranking" },
-                { label: "Mutual Fund Investing", href: "/businesses/mutual-fund-investing" },
-                { label: "AKNA Private Wealth", href: "/businesses/akna-private-wealth" },
-                { label: "Stockmarket Workshop", href: "/businesses/stockmarket-workshop" },
-                { label: "Insurance", href: "/businesses/insurance" },
-                { label: "Algo-Trading", href: "/businesses/algo-trading" },
+                { label: "Research and Ranking", href: "/services/research-ranking" },
+                { label: "Mutual Fund Investing", href: "/services/mutual-fund-investing" },
+                { label: "AKNA Private Wealth", href: "/services/akna-private-wealth" },
+                { label: "Stockmarket Workshop", href: "/services/stockmarket-workshop" },
+                { label: "Insurance", href: "/services/insurance" },
+                { label: "Algo-Trading", href: "/services/algo-trading" },
               ].map((s) => (
                 <li key={s.href}>
                   <Link href={s.href} className="text-background/70 hover:text-primary transition-colors text-sm">
@@ -107,8 +104,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                <a href="mailto:aknacapital@gmail.com" className="text-background/70 hover:text-primary transition-colors text-sm break-all">
-                  aknacapital@gmail.com
+                <a href="mailto:business@aknacapital.com" className="text-background/70 hover:text-primary transition-colors text-sm break-all">
+                  business@aknacapital.com
                 </a>
               </li>
               <li className="flex items-start gap-3">

@@ -141,7 +141,7 @@ export default function TermsOfService() {
                   Questions about these terms? Call us at{" "}
                   <a href="tel:+918989496800" className="text-primary hover:underline">+91-8989496800</a> or{" "}
                   <a href="tel:+919768943840" className="text-primary hover:underline">+91-9768943840</a>, or email{" "}
-                  <a href="mailto:aknacapital@gmail.com" className="text-primary hover:underline">aknacapital@gmail.com</a>.
+                  <a href="mailto:business@aknacapital.com" className="text-primary hover:underline">business@aknacapital.com</a>.
                 </p>
               </div>
             </motion.div>

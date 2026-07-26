@@ -9,7 +9,7 @@ AKNA Capital runs an in-house Quant Engine built on 30+ smart algorithms to help
 - **Regulatory status:** SEBI Registered Research Analyst, registration INH000023515
 - **Location:** A-201, Ishwar Swaroop CHSL, 3rd Mamletdar Wadi Road, Malad (West), Mumbai – 400064, India
 - **Phone:** +91-8989496800 / +91-9768943840
-- **Email:** aknacapital@gmail.com
+- **Email:** business@aknacapital.com
 - **Website:** https://aknacapital.com
 
 ## Team
@@ -19,39 +19,59 @@ Full profiles at https://aknacapital.com/about#team
 - **Smit Ruparel** — Head of Fundamental Research. MBA in Finance (Mumbai University), 10+ years of fundamental research experience, previously at Crisil and Axis Securities, SEBI and NISM registered Research Analyst.
 - **Akshat Nahata** — Quant & Technical Research. IIT Indore alumnus, 5+ years of technical and quant experience, previously at Walmart and Axis Securities, AMFI Registered Advisor and NISM Registered Research Analyst.
 - **CA Prajvi Nahata** — Equity Research & Multibagger Hunting. Member of ICAI, 8+ years finding multibaggers, previously at Ernst & Young, focused on value investing.
+- **Mukul Jain** — Advisory Network, M&A & IPO. MBA from IIM Ahmedabad, Gold Medalist from IIT Indore, CFA Level 1, background in investment banking covering IPO and M&A origination; advises AKNA Capital's M&A and IPO Advisory practice on an independent basis.
+- **Harsh Jain** — Business Strategy & Operations. IIT Indore alumnus, ex-Strategy & Operations Lead at VigyanPath, focused on planning and executing growth initiatives and taking products from idea to market.
 
-## Businesses
+## Services
 
-1. **Research and Ranking**: Ranked equity research suitable for an investment surplus of 3 Lacs to 1 Crore, over a 5-6 year horizon. https://aknacapital.com/businesses/research-ranking
+Full listing, grouped for individuals vs. business owners, at https://aknacapital.com/services
 
-2. **Mutual Fund Investing**: Algorithm assisted enhanced SIP investing, mapped to specific goals. https://aknacapital.com/businesses/mutual-fund-investing
+1. **Research and Ranking**: Ranked equity research suitable for an investment surplus of 3 Lacs to 1 Crore, over a 5-6 year horizon. https://aknacapital.com/services/research-ranking
 
-3. **AKNA Private Wealth**: Dedicated wealth management for an investment surplus of 1 Crore and above, over an 8-10 year horizon. https://aknacapital.com/businesses/akna-private-wealth
+2. **Mutual Fund Investing**: Algorithm assisted enhanced SIP investing, mapped to specific goals. https://aknacapital.com/services/mutual-fund-investing
 
-4. **Stockmarket Workshop**: Educational workshops on fundamental, technical, and quantitative investing, taught by AKNA Capital's own research team. https://aknacapital.com/businesses/stockmarket-workshop
+3. **AKNA Private Wealth**: Dedicated wealth management for an investment surplus of 1 Crore and above, over an 8-10 year horizon. https://aknacapital.com/services/akna-private-wealth
 
-5. **Insurance**: Guidance on the right health and term life insurance cover. https://aknacapital.com/businesses/insurance
+4. **Stockmarket Workshop**: Educational workshops on fundamental, technical, and quantitative investing, taught by AKNA Capital's own research team. https://aknacapital.com/services/stockmarket-workshop
 
-6. **Algo-Trading**: Converting a trader's own rules and logic into a backtested, automated trading strategy, built on AKNA Capital's Quant Engine. https://aknacapital.com/businesses/algo-trading
+5. **Insurance**: Guidance on the right health and term life insurance cover. https://aknacapital.com/services/insurance
+
+6. **Algo-Trading**: Converting a trader's own rules and logic into a backtested, automated trading strategy, built on AKNA Capital's Quant Engine. https://aknacapital.com/services/algo-trading
+
+### M&A Advisory and IPO Advisory
+
+Corporate advisory services for promoters, business owners, and CFOs, distinct from the retail wealth advisory above.
+
+7. **Pre-IPO Advisory**: IPO readiness assessment, governance and cap table clean-up, and route selection, 12-24 months before a potential listing. https://aknacapital.com/services/pre-ipo-advisory
+
+8. **IPO and SME IPO Advisory**: Issuer-side advisory for Main-Board IPOs (BSE/NSE) and SME IPOs (BSE SME/NSE Emerge), from merchant banker selection through DRHP, regulatory response, and listing. AKNA Capital is not a SEBI registered merchant banker and does not replace one. https://aknacapital.com/services/ipo-and-sme-ipo-advisory
+
+9. **Buy-side M&A Advisory**: Target identification, valuation, due diligence coordination, and negotiation support for acquirers. https://aknacapital.com/services/buy-side-ma-advisory
+
+10. **Sell-side M&A Advisory**: Sale readiness, valuation benchmarking, confidential buyer outreach, and process management for promoters selling a business. https://aknacapital.com/services/sell-side-ma-advisory
 
 ## Free Calculators
 
 Available at https://aknacapital.com/market-tools
 
-- SIP Calculator, SIP Delay Calculator, Education Calculator, Marriage Calculator, Retirement Calculator, Loan / EMI Calculator, SIP Step Up Calculator, Lumpsum + SIP Calculator
+- SIP Calculator, SIP Delay Calculator, Education Calculator, Marriage Calculator, Retirement Calculator, Loan / EMI Calculator, SIP Step Up Calculator, Lumpsum + SIP Calculator, Business Valuation Estimator
 
 ## Blog
 
 Available at https://aknacapital.com/blog, written by AKNA Capital's research team (Smit Ruparel, Head of Fundamental Research; Akshat Nahata, Quant & Technical Research; CA Prajvi Nahata, Equity Research & Multibagger Hunting).
 
-1. SIP vs Lumpsum: Which Should You Choose in a Volatile Market? — https://aknacapital.com/blog/sip-vs-lumpsum-volatile-market
-2. Diversification Isn't Just Buying More Stocks — https://aknacapital.com/blog/diversification-beyond-buying-more-stocks
-3. Technical Analysis 101: Reading Price Action Without the Hype — https://aknacapital.com/blog/technical-analysis-101-reading-price-action
-4. How Much Should You Actually Save for Retirement in India? — https://aknacapital.com/blog/how-much-to-save-for-retirement-india
-5. What Is Algo-Trading and Is It Right for You? — https://aknacapital.com/blog/what-is-algo-trading-is-it-right-for-you
-6. Why a Regular SIP Might Not Be Enough: The Case for Enhanced SIP — https://aknacapital.com/blog/enhanced-sip-vs-regular-sip
-7. Term Insurance vs Investment-cum-Insurance: What Actually Protects Your Family — https://aknacapital.com/blog/term-insurance-vs-investment-cum-insurance
-8. How to Read a Stock Beyond the Price Chart: A Beginner's Guide to Fundamental Analysis — https://aknacapital.com/blog/fundamental-analysis-beyond-the-price-chart
+1. How Much Is My Business Worth? A Plain-English Guide to Business Valuation — https://aknacapital.com/blog/how-much-is-my-business-worth-valuation-guide
+2. SME IPO vs Main-Board IPO: Which Listing Route Fits Your Company? — https://aknacapital.com/blog/sme-ipo-vs-main-board-ipo-which-fits
+3. Buy-Side vs Sell-Side M&A: Why the Same Advisor Rarely Works for Both — https://aknacapital.com/blog/buy-side-vs-sell-side-ma-why-one-advisor-rarely-works-for-both
+4. 12 to 24 Months Before Your IPO: What "IPO Ready" Actually Means — https://aknacapital.com/blog/what-ipo-ready-actually-means-12-24-months-out
+5. SIP vs Lumpsum: Which Should You Choose in a Volatile Market? — https://aknacapital.com/blog/sip-vs-lumpsum-volatile-market
+6. Diversification Isn't Just Buying More Stocks — https://aknacapital.com/blog/diversification-beyond-buying-more-stocks
+7. Technical Analysis 101: Reading Price Action Without the Hype — https://aknacapital.com/blog/technical-analysis-101-reading-price-action
+8. How Much Should You Actually Save for Retirement in India? — https://aknacapital.com/blog/how-much-to-save-for-retirement-india
+9. What Is Algo-Trading and Is It Right for You? — https://aknacapital.com/blog/what-is-algo-trading-is-it-right-for-you
+10. Why a Regular SIP Might Not Be Enough: The Case for Enhanced SIP — https://aknacapital.com/blog/enhanced-sip-vs-regular-sip
+11. Term Insurance vs Investment-cum-Insurance: What Actually Protects Your Family — https://aknacapital.com/blog/term-insurance-vs-investment-cum-insurance
+12. How to Read a Stock Beyond the Price Chart: A Beginner's Guide to Fundamental Analysis — https://aknacapital.com/blog/fundamental-analysis-beyond-the-price-chart
 
 ## Why AKNA Capital
 
@@ -68,6 +88,6 @@ All investments in securities markets are subject to market risk. Past performan
 ## Contact
 
 Phone: +91-8989496800 / +91-9768943840
-Email: aknacapital@gmail.com
+Email: business@aknacapital.com
 Address: A-201, Ishwar Swaroop CHSL, 3rd Mamletdar Wadi Road, Malad (West), Mumbai – 400064
 Contact form: https://aknacapital.com/contact

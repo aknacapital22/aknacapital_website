@@ -1,7 +1,7 @@
 import { TrendingUp } from "lucide-react";
-import { BusinessDetailPage, BusinessDetailConfig } from "@/components/BusinessDetailPage";
+import { ServiceDetailPage, ServiceDetailConfig } from "@/components/ServiceDetailPage";
 
-const config: BusinessDetailConfig = {
+const config: ServiceDetailConfig = {
   slug: "research-ranking",
   pillarLabel: "Research and Ranking",
   metaTitle: "Research and Ranking | AKNA Capital",
@@ -17,6 +17,15 @@ const config: BusinessDetailConfig = {
   secondaryHeading: "Research You Can Actually Follow",
   secondaryParagraph:
     "Every recommendation comes with the reasoning behind it: the numbers, the sector context, and the risk. We rank opportunities so you can prioritize where to deploy your surplus first.",
+  plainEnglish:
+    "In simple terms: you tell us how much you have to invest, and our research team, backed by an in-house algorithm engine, hands you a ranked shortlist of stocks worth considering, along with when to buy, add, or book profits, so you're not picking stocks blind or chasing random tips.",
+  notForYou: {
+    items: [
+      "You have less than roughly 3 Lacs to invest, or are looking for very short-term/intraday trading calls rather than a 5-6 year horizon.",
+      "You have an investment surplus above 1 Crore — our AKNA Private Wealth offering is built specifically for that scale.",
+      "You want someone to manage your money directly rather than provide research and recommendations you act on yourself.",
+    ],
+  },
   trustHeading: "What You Get",
   trustParagraph: "A structured research process, not a random stock tip.",
   bullets: [
@@ -49,9 +58,26 @@ const config: BusinessDetailConfig = {
       q: "How do I get started?",
       a: "Reach out through our contact form or call us directly. We'll understand your investment surplus and goals before onboarding you.",
     },
+    {
+      q: "Is this the same as a stock tip service?",
+      a: "No. A tip service typically gives you a buy call with no context. Research and Ranking gives you the fundamental, technical, and quantitative reasoning behind each recommendation, along with a rank so you know where to focus first.",
+    },
+    {
+      q: "What sectors or market caps do you cover?",
+      a: "Our Quant Engine and research team screen across large-cap, mid-cap, and small-cap stocks across sectors, ranking opportunities on fundamentals, technicals, and quantitative signals rather than restricting to one sector or market-cap band.",
+    },
+    {
+      q: "Do I need a demat account with a specific broker?",
+      a: "No. Research and Ranking gives you recommendations and guidance; you execute trades through your own existing demat and trading account with any broker.",
+    },
+  ],
+  relatedServices: [
+    { label: "Mutual Fund Investing", href: "/services/mutual-fund-investing" },
+    { label: "AKNA Private Wealth", href: "/services/akna-private-wealth" },
+    { label: "Algo-Trading", href: "/services/algo-trading" },
   ],
 };
 
 export default function ResearchRanking() {
-  return <BusinessDetailPage config={config} />;
+  return <ServiceDetailPage config={config} />;
 }

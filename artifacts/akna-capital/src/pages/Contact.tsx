@@ -25,7 +25,7 @@ const contactSchemas = [
       "name": "AKNA Capital",
       "url": "https://aknacapital.com/",
       "telephone": "+91-8989496800",
-      "email": "aknacapital@gmail.com",
+      "email": "business@aknacapital.com",
     },
   },
 ];
@@ -35,7 +35,7 @@ export default function Contact() {
     <div className="flex flex-col min-h-screen bg-background">
       <SEO
         title="Contact AKNA Capital | Wealth Advisory"
-        description="Talk to our team about your investment goals. We respond within a day. Based in Mumbai. Call +91-8989496800 / +91-9768943840 or email aknacapital@gmail.com."
+        description="Talk to our team about your investment goals. We respond within a day. Based in Mumbai. Call +91-8989496800 / +91-9768943840 or email business@aknacapital.com."
         path="/contact"
         keywords="contact AKNA Capital, wealth advisory consultation Mumbai, SEBI registered research analyst contact, investment advisory enquiry"
         jsonLd={contactSchemas}

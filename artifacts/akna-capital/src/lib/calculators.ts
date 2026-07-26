@@ -153,6 +153,24 @@ export function lumpsumPlusSip(
   return { invested, returns: total - invested, total, lumpsumFV, sipFV: sip.total };
 }
 
+export interface BusinessValuationResult {
+  ebitda: number;
+  enterpriseValue: number;
+  equityValue: number;
+}
+
+export function businessValuationEstimate(
+  annualRevenue: number,
+  ebitdaMarginPercent: number,
+  evEbitdaMultiple: number,
+  netDebt: number
+): BusinessValuationResult {
+  const ebitda = annualRevenue * (ebitdaMarginPercent / 100);
+  const enterpriseValue = ebitda * evEbitdaMultiple;
+  const equityValue = enterpriseValue - netDebt;
+  return { ebitda, enterpriseValue, equityValue };
+}
+
 export function formatINR(value: number): string {
   if (!isFinite(value) || isNaN(value)) return "₹0";
   const rounded = Math.round(value);

@@ -1,7 +1,7 @@
 import { Bot } from "lucide-react";
-import { BusinessDetailPage, BusinessDetailConfig } from "@/components/BusinessDetailPage";
+import { ServiceDetailPage, ServiceDetailConfig } from "@/components/ServiceDetailPage";
 
-const config: BusinessDetailConfig = {
+const config: ServiceDetailConfig = {
   slug: "algo-trading",
   pillarLabel: "Algo-Trading",
   metaTitle: "Algo-Trading | Automate Your Strategy | AKNA Capital",
@@ -17,6 +17,14 @@ const config: BusinessDetailConfig = {
   secondaryHeading: "Your Rules, Executed Consistently",
   secondaryParagraph:
     "Algo-trading is not about handing over decisions to a black box. It is about taking the rules you already trust and having them executed consistently, without hesitation, fatigue, or emotion getting in the way.",
+  plainEnglish:
+    "In simple terms: if you already trade with a defined set of rules (\"buy when X happens, sell when Y happens\"), we convert those rules into code, test how they would have performed on past data, and then run them automatically, so you're not manually watching the screen and making the same decision by hand every time.",
+  notForYou: {
+    items: [
+      "You don't yet trade with a defined, repeatable set of rules — our Stockmarket Workshop is a better starting point.",
+      "You're looking for a guaranteed-profit \"black box\" bot rather than automating your own tested strategy.",
+    ],
+  },
   trustHeading: "How We Help",
   trustParagraph: "From a trading idea to a running, tested strategy.",
   bullets: [
@@ -49,9 +57,26 @@ const config: BusinessDetailConfig = {
       q: "How do I get started with Algo-Trading?",
       a: "Share your existing trading rules or idea through our contact form, and we'll walk through how it could be backtested and automated.",
     },
+    {
+      q: "What markets or instruments can be algo-traded?",
+      a: "This depends on your rules and goals; equity, futures, and options strategies can all be converted and backtested, subject to the specific instrument's liquidity and the broker/exchange infrastructure available.",
+    },
+    {
+      q: "Do I need my own broker API access?",
+      a: "Typically yes, since orders need to be routed through a broker that supports automated execution. We help you understand what's needed for your specific broker setup as part of onboarding.",
+    },
+    {
+      q: "What happens if my strategy stops performing well?",
+      a: "Ongoing monitoring is built in, so underperformance is visible rather than silent. You can request the strategy be paused, adjusted, or re-backtested with updated rules at any time.",
+    },
+  ],
+  relatedServices: [
+    { label: "Stockmarket Workshop", href: "/services/stockmarket-workshop" },
+    { label: "Research and Ranking", href: "/services/research-ranking" },
+    { label: "Mutual Fund Investing", href: "/services/mutual-fund-investing" },
   ],
 };
 
 export default function AlgoTrading() {
-  return <BusinessDetailPage config={config} />;
+  return <ServiceDetailPage config={config} />;
 }

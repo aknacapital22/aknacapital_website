@@ -14,6 +14,8 @@ const categoryColors: Record<string, string> = {
   "Algo-Trading": "bg-violet-50 text-violet-700",
   "Market Education": "bg-sky-50 text-sky-700",
   "Wealth Planning": "bg-amber-50 text-amber-700",
+  "M&A Advisory": "bg-rose-50 text-rose-700",
+  "IPO Advisory": "bg-teal-50 text-teal-700",
 };
 
 const blogSchemas = [
@@ -23,7 +25,7 @@ const blogSchemas = [
     "name": "AKNA Capital Blog",
     "url": "https://aknacapital.com/blog",
     "description":
-      "Insights on equity research, mutual fund investing, wealth planning, insurance, and algo-trading from the AKNA Capital team.",
+      "Insights on equity research, mutual fund investing, wealth planning, insurance, algo-trading, and M&A/IPO advisory from the AKNA Capital team.",
     "publisher": {
       "@type": "Organization",
       "name": "AKNA Capital",

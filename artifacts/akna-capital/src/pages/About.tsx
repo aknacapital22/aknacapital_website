@@ -59,6 +59,28 @@ const team = [
       "Drives Equity Research & Multibagger Hunting",
     ],
   },
+  {
+    name: "Mukul Jain",
+    jobTitle: "Advisory Network — M&A & IPO",
+    points: [
+      "MBA from IIM Ahmedabad",
+      "Gold Medalist, IIT Indore; CFA Level 1",
+      "Background in investment banking, covering IPO and M&A origination",
+      "Experience across pitch decks, roadshow presentations, and transaction materials",
+      "Advises AKNA Capital's M&A and IPO Advisory practice on an independent basis",
+    ],
+  },
+  {
+    name: "Harsh Jain",
+    jobTitle: "Business Strategy & Operations",
+    points: [
+      "IIT Indore Alumni",
+      "Ex-Strategy & Operations Lead at VigyanPath",
+      "Business Strategy: planning and executing growth initiatives",
+      "Product Development: from idea to market",
+      "Drives Business Strategy & Operations at AKNA Capital",
+    ],
+  },
 ];
 
 const reasons = [
@@ -205,7 +227,7 @@ export default function About() {
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex flex-wrap justify-center gap-8">
               {team.map((member, index) => (
                 <motion.div
                   key={member.name}
@@ -213,7 +235,7 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="flex flex-col items-center text-center bg-card border border-border/60 rounded-2xl p-6 md:p-8"
+                  className="flex flex-col items-center text-center bg-card border border-border/60 rounded-2xl p-6 md:p-8 w-full sm:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)]"
                 >
                   <div className="w-24 h-24 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-bold text-2xl mb-5 shrink-0">
                     {member.name

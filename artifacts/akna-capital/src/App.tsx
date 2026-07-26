@@ -8,17 +8,22 @@ import { lazy, Suspense } from "react";
 const Home = lazy(() => import("@/pages/Home"));
 const AboutPage = lazy(() => import("@/pages/About"));
 const ContactPage = lazy(() => import("@/pages/Contact"));
+const ServicesPage = lazy(() => import("@/pages/Services"));
 const MarketToolsPage = lazy(() => import("@/pages/MarketTools"));
 const BlogPage = lazy(() => import("@/pages/Blog"));
 const BlogPostPage = lazy(() => import("@/pages/BlogPost"));
 const PrivacyPolicy = lazy(() => import("@/pages/PrivacyPolicy"));
 const TermsOfService = lazy(() => import("@/pages/TermsOfService"));
-const ResearchRanking = lazy(() => import("@/pages/businesses/ResearchRanking"));
-const MutualFundInvesting = lazy(() => import("@/pages/businesses/MutualFundInvesting"));
-const AknaPrivateWealth = lazy(() => import("@/pages/businesses/AknaPrivateWealth"));
-const StockmarketWorkshop = lazy(() => import("@/pages/businesses/StockmarketWorkshop"));
-const Insurance = lazy(() => import("@/pages/businesses/Insurance"));
-const AlgoTrading = lazy(() => import("@/pages/businesses/AlgoTrading"));
+const ResearchRanking = lazy(() => import("@/pages/services/ResearchRanking"));
+const MutualFundInvesting = lazy(() => import("@/pages/services/MutualFundInvesting"));
+const AknaPrivateWealth = lazy(() => import("@/pages/services/AknaPrivateWealth"));
+const StockmarketWorkshop = lazy(() => import("@/pages/services/StockmarketWorkshop"));
+const Insurance = lazy(() => import("@/pages/services/Insurance"));
+const AlgoTrading = lazy(() => import("@/pages/services/AlgoTrading"));
+const PreIpoAdvisory = lazy(() => import("@/pages/services/PreIpoAdvisory"));
+const IpoSmeIpoAdvisory = lazy(() => import("@/pages/services/IpoSmeIpoAdvisory"));
+const BuySideMaAdvisory = lazy(() => import("@/pages/services/BuySideMaAdvisory"));
+const SellSideMaAdvisory = lazy(() => import("@/pages/services/SellSideMaAdvisory"));
 const SipCalculator = lazy(() => import("@/pages/market-tools/SipCalculator"));
 const SipDelayCalculator = lazy(() => import("@/pages/market-tools/SipDelayCalculator"));
 const EducationCalculator = lazy(() => import("@/pages/market-tools/EducationCalculator"));
@@ -27,6 +32,7 @@ const RetirementCalculator = lazy(() => import("@/pages/market-tools/RetirementC
 const LoanEmiCalculator = lazy(() => import("@/pages/market-tools/LoanEmiCalculator"));
 const SipStepUpCalculator = lazy(() => import("@/pages/market-tools/SipStepUpCalculator"));
 const LumpsumSipCalculator = lazy(() => import("@/pages/market-tools/LumpsumSipCalculator"));
+const BusinessValuationEstimator = lazy(() => import("@/pages/market-tools/BusinessValuationEstimator"));
 const NotFound = lazy(() => import("@/pages/not-found"));
 
 const queryClient = new QueryClient({
@@ -43,12 +49,17 @@ function Router() {
     <Suspense fallback={null}>
       <Switch>
         <Route path="/" component={Home} />
-        <Route path="/businesses/research-ranking" component={ResearchRanking} />
-        <Route path="/businesses/mutual-fund-investing" component={MutualFundInvesting} />
-        <Route path="/businesses/akna-private-wealth" component={AknaPrivateWealth} />
-        <Route path="/businesses/stockmarket-workshop" component={StockmarketWorkshop} />
-        <Route path="/businesses/insurance" component={Insurance} />
-        <Route path="/businesses/algo-trading" component={AlgoTrading} />
+        <Route path="/services" component={ServicesPage} />
+        <Route path="/services/research-ranking" component={ResearchRanking} />
+        <Route path="/services/mutual-fund-investing" component={MutualFundInvesting} />
+        <Route path="/services/akna-private-wealth" component={AknaPrivateWealth} />
+        <Route path="/services/stockmarket-workshop" component={StockmarketWorkshop} />
+        <Route path="/services/insurance" component={Insurance} />
+        <Route path="/services/algo-trading" component={AlgoTrading} />
+        <Route path="/services/pre-ipo-advisory" component={PreIpoAdvisory} />
+        <Route path="/services/ipo-and-sme-ipo-advisory" component={IpoSmeIpoAdvisory} />
+        <Route path="/services/buy-side-ma-advisory" component={BuySideMaAdvisory} />
+        <Route path="/services/sell-side-ma-advisory" component={SellSideMaAdvisory} />
         <Route path="/market-tools" component={MarketToolsPage} />
         <Route path="/market-tools/sip-calculator" component={SipCalculator} />
         <Route path="/market-tools/sip-delay-calculator" component={SipDelayCalculator} />
@@ -58,6 +69,7 @@ function Router() {
         <Route path="/market-tools/loan-emi-calculator" component={LoanEmiCalculator} />
         <Route path="/market-tools/sip-step-up-calculator" component={SipStepUpCalculator} />
         <Route path="/market-tools/lumpsum-sip-calculator" component={LumpsumSipCalculator} />
+        <Route path="/market-tools/business-valuation-estimator" component={BusinessValuationEstimator} />
         <Route path="/about" component={AboutPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/blog" component={BlogPage} />

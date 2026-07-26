@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
-import { Businesses } from "@/components/sections/Businesses";
+import { Services } from "@/components/sections/Services";
 import { FeaturedSections } from "@/components/sections/FeaturedSections";
 import { Contact } from "@/components/sections/Contact";
 import { Testimonials } from "@/components/sections/Testimonials";
@@ -27,7 +27,7 @@ const organizationSchema = {
     "AKNA Capital is a SEBI Registered Research Analyst helping individuals, families, and businesses grow wealth through equity research and ranking, enhanced mutual fund SIPs, private wealth management, stockmarket education, insurance, and algo-trading.",
   "identifier": "SEBI Registered RA INH000023515",
   "telephone": ["+91-8989496800", "+91-9768943840"],
-  "email": "aknacapital@gmail.com",
+  "email": "business@aknacapital.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "A-201, Ishwar Swaroop CHSL, 3rd Mamletdar Wadi Road",
@@ -41,7 +41,7 @@ const organizationSchema = {
     "@type": "ContactPoint",
     "contactType": "customer service",
     "telephone": "+91-8989496800",
-    "email": "aknacapital@gmail.com",
+    "email": "business@aknacapital.com",
     "availableLanguage": ["English", "Hindi"],
     "areaServed": "IN",
   },
@@ -119,7 +119,7 @@ export default function Home() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <Businesses />
+        <Services />
         <FeaturedSections />
         <Testimonials />
         <FAQ />

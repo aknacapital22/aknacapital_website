@@ -7,38 +7,68 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aknacapital.com/businesses/research-ranking</loc>
+    <loc>https://aknacapital.com/services</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/services/research-ranking</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aknacapital.com/businesses/mutual-fund-investing</loc>
+    <loc>https://aknacapital.com/services/mutual-fund-investing</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aknacapital.com/businesses/akna-private-wealth</loc>
+    <loc>https://aknacapital.com/services/akna-private-wealth</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aknacapital.com/businesses/stockmarket-workshop</loc>
+    <loc>https://aknacapital.com/services/stockmarket-workshop</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aknacapital.com/businesses/insurance</loc>
+    <loc>https://aknacapital.com/services/insurance</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aknacapital.com/businesses/algo-trading</loc>
+    <loc>https://aknacapital.com/services/algo-trading</loc>
     <lastmod>2026-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/services/pre-ipo-advisory</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/services/ipo-and-sme-ipo-advisory</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/services/buy-side-ma-advisory</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/services/sell-side-ma-advisory</loc>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -97,6 +127,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://aknacapital.com/market-tools/business-valuation-estimator</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://aknacapital.com/about</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -110,9 +146,33 @@
   </url>
   <url>
     <loc>https://aknacapital.com/blog</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/blog/how-much-is-my-business-worth-valuation-guide</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/blog/sme-ipo-vs-main-board-ipo-which-fits</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/blog/buy-side-vs-sell-side-ma-why-one-advisor-rarely-works-for-both</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://aknacapital.com/blog/what-ipo-ready-actually-means-12-24-months-out</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aknacapital.com/blog/sip-vs-lumpsum-volatile-market</loc>

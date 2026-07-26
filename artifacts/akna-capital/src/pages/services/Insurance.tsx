@@ -1,7 +1,7 @@
 import { ShieldCheck } from "lucide-react";
-import { BusinessDetailPage, BusinessDetailConfig } from "@/components/BusinessDetailPage";
+import { ServiceDetailPage, ServiceDetailConfig } from "@/components/ServiceDetailPage";
 
-const config: BusinessDetailConfig = {
+const config: ServiceDetailConfig = {
   slug: "insurance",
   pillarLabel: "Insurance",
   metaTitle: "Health & Term Life Insurance | AKNA Capital",
@@ -17,6 +17,14 @@ const config: BusinessDetailConfig = {
   secondaryHeading: "Protection First, Then Growth",
   secondaryParagraph:
     "Before optimizing for returns, a financial plan needs a safety net. We treat insurance as the foundation: adequate term cover and health insurance, so the rest of your wealth plan is not derailed by an unexpected event.",
+  plainEnglish:
+    "In simple terms: term insurance pays your family a lump sum if you pass away during the policy term, and health insurance covers hospital bills. We help you size both correctly for your situation and compare plans across insurers, instead of pushing whichever product pays us the highest commission.",
+  notForYou: {
+    items: [
+      "You're looking for an investment-cum-insurance product that bundles market returns with cover — we deliberately separate the two and point you to our investing offerings instead.",
+      "You already have a recently reviewed, adequate term and health cover in place and don't need a fresh assessment.",
+    ],
+  },
   trustHeading: "What We Help With",
   trustParagraph: "Straightforward guidance on the two insurance covers that matter most.",
   bullets: [
@@ -49,9 +57,26 @@ const config: BusinessDetailConfig = {
       q: "How do I get started?",
       a: "Share your family details and any existing policies through our contact form, and we'll help you understand where the gaps, if any, are.",
     },
+    {
+      q: "At what age should I buy term insurance?",
+      a: "Generally, the earlier the better, premiums are locked in lower when you're younger and healthier, and cover typically needs to be highest during your working, income-earning years when dependents rely on you.",
+    },
+    {
+      q: "Does health insurance from my employer count as enough cover?",
+      a: "Employer group health cover is useful but usually insufficient on its own; it typically ends when you leave the job and may not cover your full family adequately. We help you assess whether you need an independent policy alongside it.",
+    },
+    {
+      q: "Do you earn commission from the plans you recommend?",
+      a: "Our focus is on unbiased comparison across insurers based on your actual needs, not steering you toward a single product. We're transparent about how we're compensated when we make a specific recommendation.",
+    },
+  ],
+  relatedServices: [
+    { label: "Research and Ranking", href: "/services/research-ranking" },
+    { label: "Mutual Fund Investing", href: "/services/mutual-fund-investing" },
+    { label: "AKNA Private Wealth", href: "/services/akna-private-wealth" },
   ],
 };
 
 export default function Insurance() {
-  return <BusinessDetailPage config={config} />;
+  return <ServiceDetailPage config={config} />;
 }

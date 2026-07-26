@@ -1,7 +1,7 @@
 import { Gem } from "lucide-react";
-import { BusinessDetailPage, BusinessDetailConfig } from "@/components/BusinessDetailPage";
+import { ServiceDetailPage, ServiceDetailConfig } from "@/components/ServiceDetailPage";
 
-const config: BusinessDetailConfig = {
+const config: ServiceDetailConfig = {
   slug: "akna-private-wealth",
   pillarLabel: "AKNA Private Wealth",
   metaTitle: "AKNA Private Wealth | HNI Wealth Management | AKNA Capital",
@@ -17,6 +17,14 @@ const config: BusinessDetailConfig = {
   secondaryHeading: "A Dedicated, High Touch Approach",
   secondaryParagraph:
     "At this level, generic advice is not enough. AKNA Private Wealth pairs you with a dedicated approach to your portfolio, built around your specific goals, liabilities, and time horizon, not a one-size-fits-all model.",
+  plainEnglish:
+    "In simple terms: once your investable surplus crosses roughly 1 Crore, a single stock recommendation or one mutual fund SIP isn't enough. AKNA Private Wealth builds one coordinated plan across equity, mutual funds, and other assets, reviewed regularly, and designed around an 8-10 year horizon rather than a single product.",
+  notForYou: {
+    items: [
+      "Your investable surplus is below roughly 1 Crore — our Research and Ranking or Mutual Fund Investing offerings are built for that range.",
+      "You're looking for a single stock tip or short-term trading calls rather than an ongoing, coordinated wealth plan.",
+    ],
+  },
   trustHeading: "What AKNA Private Wealth Covers",
   trustParagraph: "A long term, diversified approach to preserving and growing significant capital.",
   bullets: [
@@ -49,9 +57,26 @@ const config: BusinessDetailConfig = {
       q: "How do I get started?",
       a: "Reach out through our contact form or call us directly. We'll start with an in-depth conversation about your goals, liabilities, and time horizon before proposing an approach.",
     },
+    {
+      q: "Do you offer estate or succession planning?",
+      a: "Succession and multi-generational planning is part of the broader conversation for families at this scale, coordinated alongside your investment strategy rather than treated as a separate, disconnected exercise.",
+    },
+    {
+      q: "Is there a dedicated relationship manager?",
+      a: "Yes. AKNA Private Wealth clients work with a dedicated point of contact on our team rather than a generic support queue, given the complexity and scale involved.",
+    },
+    {
+      q: "Can you manage money for a family office or trust?",
+      a: "Yes, we work with individuals, families, and family offices/trusts where the surplus and horizon fit AKNA Private Wealth. Structuring details vary by entity type, which we address during onboarding.",
+    },
+  ],
+  relatedServices: [
+    { label: "Research and Ranking", href: "/services/research-ranking" },
+    { label: "Insurance", href: "/services/insurance" },
+    { label: "Sell-side M&A Advisory", href: "/services/sell-side-ma-advisory" },
   ],
 };
 
 export default function AknaPrivateWealth() {
-  return <BusinessDetailPage config={config} />;
+  return <ServiceDetailPage config={config} />;
 }

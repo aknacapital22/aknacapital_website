@@ -1,7 +1,7 @@
 import { PieChart } from "lucide-react";
-import { BusinessDetailPage, BusinessDetailConfig } from "@/components/BusinessDetailPage";
+import { ServiceDetailPage, ServiceDetailConfig } from "@/components/ServiceDetailPage";
 
-const config: BusinessDetailConfig = {
+const config: ServiceDetailConfig = {
   slug: "mutual-fund-investing",
   pillarLabel: "Mutual Fund Investing",
   metaTitle: "Mutual Fund Investing | Enhanced SIP | AKNA Capital",
@@ -17,6 +17,14 @@ const config: BusinessDetailConfig = {
   secondaryHeading: "Built Around Your Goal, Not a Fixed Amount",
   secondaryParagraph:
     "Whether you are investing for a child's education, a home, or retirement, we map your mutual fund investments to that specific goal and time horizon, and review the plan as things change.",
+  plainEnglish:
+    "In simple terms: a normal SIP invests the same amount in the same fund every month, no matter what. Our enhanced SIP still runs automatically each month, but our algorithms and team review and adjust the fund mix over time, tied to a specific goal like your child's education or retirement, so it isn't left running unattended for years.",
+  notForYou: {
+    items: [
+      "You're purely looking for direct stock recommendations rather than mutual fund investing — see our Research and Ranking instead.",
+      "You want a completely hands-off, never-reviewed investment with no ongoing engagement.",
+    ],
+  },
   trustHeading: "How Enhanced SIP Works",
   trustParagraph: "A more active approach to mutual fund investing.",
   bullets: [
@@ -49,9 +57,26 @@ const config: BusinessDetailConfig = {
       q: "How do I get started?",
       a: "Share your goals and current investments through our contact form, and we'll walk you through how enhanced SIP would apply to your situation.",
     },
+    {
+      q: "How much can I start an enhanced SIP with?",
+      a: "Enhanced SIP is built to work at typical retail SIP amounts, so you can start small and increase contributions over time as your goal and income grow.",
+    },
+    {
+      q: "Do I lose control over which funds I'm invested in?",
+      a: "No. We recommend and review the fund mix with you; you retain visibility and control over where your money is invested, it's not a black-box allocation.",
+    },
+    {
+      q: "How is rebalancing decided?",
+      a: "Rebalancing is guided by our algorithm's read on fund category performance and market conditions, reviewed by our team, and only actioned after checking it still fits your original goal and horizon.",
+    },
+  ],
+  relatedServices: [
+    { label: "Research and Ranking", href: "/services/research-ranking" },
+    { label: "AKNA Private Wealth", href: "/services/akna-private-wealth" },
+    { label: "Insurance", href: "/services/insurance" },
   ],
 };
 
 export default function MutualFundInvesting() {
-  return <BusinessDetailPage config={config} />;
+  return <ServiceDetailPage config={config} />;
 }

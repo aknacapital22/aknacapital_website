@@ -1,7 +1,7 @@
 import { GraduationCap } from "lucide-react";
-import { BusinessDetailPage, BusinessDetailConfig } from "@/components/BusinessDetailPage";
+import { ServiceDetailPage, ServiceDetailConfig } from "@/components/ServiceDetailPage";
 
-const config: BusinessDetailConfig = {
+const config: ServiceDetailConfig = {
   slug: "stockmarket-workshop",
   pillarLabel: "Stockmarket Workshop",
   metaTitle: "Stockmarket Workshop | Learn Investing | AKNA Capital",
@@ -17,6 +17,14 @@ const config: BusinessDetailConfig = {
   secondaryHeading: "Taught by People Who Actually Research Stocks",
   secondaryParagraph:
     "This is not a generic trading course. It is taught by the same research team behind our Research and Ranking recommendations, so you learn the actual frameworks we use, not a repackaged template.",
+  plainEnglish:
+    "In simple terms: instead of following someone else's recommendations forever, this workshop teaches you how to read a company's financials, understand price charts, and see how data-driven models work, taught by the same team that actually builds our research.",
+  notForYou: {
+    items: [
+      "You're only looking for ready-made stock recommendations rather than learning the frameworks yourself — Research and Ranking is a better fit.",
+      "You're looking for guaranteed quick-profit trading tips rather than a genuine learning course.",
+    ],
+  },
   trustHeading: "What the Workshop Covers",
   trustParagraph: "A structured path through the three pillars of investing analysis.",
   bullets: [
@@ -49,9 +57,26 @@ const config: BusinessDetailConfig = {
       q: "How do I sign up?",
       a: "Reach out through our contact form or call us directly for upcoming workshop dates and details.",
     },
+    {
+      q: "Is the workshop online or in-person?",
+      a: "We run both formats depending on the batch; check with us through the contact form for the format and schedule of the next available workshop.",
+    },
+    {
+      q: "How long is the workshop?",
+      a: "Session length and structure vary by batch, covering fundamental, technical, and quantitative analysis across multiple sessions rather than a single crash-course afternoon.",
+    },
+    {
+      q: "Will I get any material to refer back to later?",
+      a: "Yes, participants get reference material covering the frameworks taught, so you can revisit the concepts after the sessions end.",
+    },
+  ],
+  relatedServices: [
+    { label: "Research and Ranking", href: "/services/research-ranking" },
+    { label: "Algo-Trading", href: "/services/algo-trading" },
+    { label: "Mutual Fund Investing", href: "/services/mutual-fund-investing" },
   ],
 };
 
 export default function StockmarketWorkshop() {
-  return <BusinessDetailPage config={config} />;
+  return <ServiceDetailPage config={config} />;
 }
