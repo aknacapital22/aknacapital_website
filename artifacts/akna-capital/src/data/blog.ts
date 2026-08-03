@@ -25,6 +25,701 @@ const DESK: BlogAuthor = { name: "AKNA Capital Research Desk", title: "AKNA Capi
 // Ordered newest first — blogPosts[0] is the featured article on /blog.
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-is-the-right-time-to-sell-your-business",
+    title: "When Is the Right Time to Sell Your Business? Five Signs to Watch",
+    metaTitle: "When Should You Sell Your Business? 5 Signs to Watch | AKNA Capital",
+    metaDescription:
+      "Selling too early leaves value on the table. Selling too late means running the business through decline. Here are five signals that suggest it may genuinely be time.",
+    excerpt: "There is no perfect calendar date to sell a business. But there are real signals, in the numbers and in your own life, worth paying attention to before you decide.",
+    category: "M&A Advisory",
+    readTime: "6 min read",
+    date: "August 3, 2026",
+    isoDate: "2026-08-03",
+    author: DESK,
+    content: `
+## There Is No Perfect Date on a Calendar
+
+Promoters often wait for a single obvious moment to decide it's time to sell. That moment rarely arrives cleanly. What usually exists instead is a combination of signals, some in the business and some in your own life, that together point toward a sale being the right next step. Here are five worth paying attention to.
+
+## 1. Growth Has Plateaued Despite Your Best Efforts
+
+If revenue and margins have flattened for two or three consecutive years despite genuine effort, a new owner with fresh capital, a different network, or complementary capabilities may be able to unlock growth that your current structure cannot.
+
+## 2. You Are the Business
+
+If the company cannot function for more than a few weeks without you personally, that is not just a risk for you today. It is also a valuation problem. Buyers pay less for a business overly dependent on one person, and eventually you will not be able or willing to keep filling that role.
+
+## 3. A Competitor or Larger Player Has Approached You
+
+An inbound approach from a strategic buyer often means the market sees value you may be underpricing internally. It is worth exploring properly, ideally alongside a broader process rather than a single negotiation, since one interested buyer rarely produces your best possible terms.
+
+## 4. Your Personal Financial Goals Have Changed
+
+Sometimes the business itself is healthy, but your own life has shifted. Retirement, a change in risk appetite, a desire to diversify wealth beyond one concentrated asset, or simply wanting to build something new are all legitimate reasons, and none of them require the business to be struggling first.
+
+## 5. The Industry Itself Is Consolidating
+
+When an industry starts consolidating around a handful of larger players, being acquired on your own terms while you still have leverage is usually a better outcome than competing against much larger, well capitalized rivals a few years later.
+
+## Readiness Still Matters More Than Timing
+
+Even when one or more of these signals is present, jumping straight into buyer conversations without preparation usually leaves value on the table. A rushed process with only one buyer at the table rarely produces the outcome a properly run, competitive process does.
+
+## Where to Start
+
+If any of this sounds familiar, our [Sell-side M&A Advisory](/services/sell-side-ma-advisory) team can help you assess readiness, benchmark a realistic valuation, and run a confidential process across multiple buyers rather than a single negotiation. You can also get a first, illustrative sense of value using our [Business Valuation Estimator](/market-tools/business-valuation-estimator).
+
+This article is for general awareness. Every business and every promoter's circumstances are different, and any decision to sell should be made after a proper readiness and valuation assessment.
+`,
+  },
+  {
+    slug: "due-diligence-checklist-before-buying-a-business",
+    title: "Due Diligence Checklist Before You Buy a Business in India",
+    metaTitle: "Business Acquisition Due Diligence Checklist India | AKNA Capital",
+    metaDescription:
+      "Buying a business without proper due diligence is how acquirers inherit problems they never priced in. Here is what a genuinely thorough diligence process actually covers.",
+    excerpt: "The seller's pitch deck shows you the business at its best. Due diligence is where you find out what it actually looks like underneath.",
+    category: "M&A Advisory",
+    readTime: "6 min read",
+    date: "August 3, 2026",
+    isoDate: "2026-08-03",
+    author: DESK,
+    content: `
+## The Pitch Deck Is Not the Business
+
+Every seller presents their business in its best possible light. Due diligence exists to find out what the business actually looks like once you get past the pitch deck, and to price in whatever you find before you sign, not after.
+
+## Financial Diligence
+
+- **Revenue quality.** Is revenue recurring and diversified across customers, or concentrated in one or two accounts that could walk away after a change in ownership?
+- **Normalized earnings.** Are there one time gains, owner perks routed through the business, or unusual expenses that need adjusting to see the true underlying profitability?
+- **Working capital.** How much cash is genuinely tied up in receivables and inventory, and how quickly does it actually convert back to cash?
+
+## Legal Diligence
+
+- **Contracts.** Do key customer and supplier contracts survive a change of ownership, or do they include clauses that let the other party exit if control changes?
+- **Litigation and disputes.** Are there pending or threatened legal matters that could become your liability the day the deal closes?
+- **Compliance history.** Has the business consistently met its regulatory, tax, and labor law obligations, or are there gaps that could surface later as penalties?
+
+## Operational Diligence
+
+- **Key person dependency.** Does the business run on documented processes, or does critical knowledge live only in the owner's head?
+- **Customer concentration.** What percentage of revenue comes from the top three to five customers, and how has that concentration trended over time?
+- **Technology and assets.** Are the systems, equipment, and infrastructure the business relies on genuinely fit for the next several years, or do they need significant near term investment?
+
+## Tax Diligence
+
+Past tax filings, any ongoing assessments, and how clean the company's tax history actually is deserve their own dedicated review, since undisclosed tax liabilities are one of the more common ways acquirers get an unpleasant surprise after closing.
+
+## The Real Value of Diligence Is Negotiating Leverage
+
+Diligence is not just a box ticking exercise before signing. Genuine findings, whether a customer concentration risk or a working capital gap, are also legitimate grounds to renegotiate price or structure before you commit, not just information to note and move past.
+
+## Where This Fits
+
+Coordinating exactly this kind of diligence, alongside independent valuation and negotiation support, is the core of what [Buy-side M&A Advisory](/services/buy-side-ma-advisory) at AKNA Capital does for acquirers. If you are still forming a view on what a target might be worth before diligence even begins, our [Business Valuation Estimator](/market-tools/business-valuation-estimator) is a reasonable starting reference point.
+
+This checklist is illustrative and not exhaustive. Every acquisition requires diligence scoped to the specific business, sector, and deal structure involved.
+`,
+  },
+  {
+    slug: "how-to-backtest-a-trading-strategy-before-going-live",
+    title: "How to Backtest a Trading Strategy Before You Go Live",
+    metaTitle: "How to Backtest a Trading Strategy in India | AKNA Capital",
+    metaDescription:
+      "Running a strategy live without backtesting it first is how traders discover its flaws with real money on the line. Here is what a proper backtest actually involves.",
+    excerpt: "A strategy that sounds good in your head can behave very differently once it meets real historical data. Backtesting is how you find that out before capital is at risk.",
+    category: "Algo-Trading",
+    readTime: "5 min read",
+    date: "August 2, 2026",
+    isoDate: "2026-08-02",
+    author: AKSHAT,
+    content: `
+## Why Backtesting Comes Before Everything Else
+
+Before any rule based strategy runs with real capital, it needs to be tested against historical data to see how it would actually have performed. Skipping this step means discovering a strategy's flaws with real money on the line instead of on a spreadsheet.
+
+## What a Proper Backtest Actually Checks
+
+- **Performance across market regimes.** Does the strategy hold up in trending markets, sideways markets, and sharp corrections, or does it only work in the exact conditions it was designed around?
+- **Drawdowns, not just returns.** A strategy that returns well on paper but experiences a 40 percent drawdown along the way may not be one you can actually stick with when it happens live.
+- **Realistic costs.** Brokerage, slippage, and taxes all eat into returns. A backtest that ignores them will overstate performance versus what you would actually receive.
+- **Sample size.** Testing a strategy against six months of calm markets tells you very little. A longer history that includes at least one genuine downturn is far more informative.
+
+## The Overfitting Trap
+
+It is possible to tune a strategy's parameters so precisely that it performs beautifully on historical data purely because it has been fitted to that exact data, not because the underlying logic is sound. This is called overfitting, and it is one of the most common reasons a strategy that backtests brilliantly fails once it goes live on new data it has never seen.
+
+## Forward Testing Before Full Capital
+
+Between backtesting and committing full capital, running the strategy on a small allocation or in a simulated environment for a period gives you a check against overfitting, since the strategy is now being tested on data it was never tuned against.
+
+## Backtesting Does Not Remove Risk
+
+Even a properly backtested, forward tested strategy carries real market risk once it runs live. Backtesting reduces the chance of an obvious, avoidable flaw. It does not guarantee future performance, since markets can behave in ways no historical period fully captured.
+
+## Where We Help
+
+If you already trade with a defined set of rules and want them properly backtested before being converted into an automated strategy, that is exactly what [Algo-Trading](/services/algo-trading) at AKNA Capital is built around, using the same in-house Quant Engine that powers our equity research.
+
+Algo-trading automates execution but does not eliminate market risk. Backtested or simulated performance does not guarantee future results.
+`,
+  },
+  {
+    slug: "what-to-do-with-your-portfolio-when-the-market-crashes",
+    title: "What Should You Do With Your Portfolio When the Market Crashes?",
+    metaTitle: "What to Do When the Stock Market Crashes | AKNA Capital",
+    metaDescription:
+      "Market crashes trigger the same instinct in almost every investor: sell now, think later. Here is a calmer, more useful framework for what to actually do.",
+    excerpt: "The instinct in a crash is to sell first and think later. Here is a calmer framework for deciding what your portfolio actually needs from you right now.",
+    category: "Wealth Planning",
+    readTime: "5 min read",
+    date: "August 2, 2026",
+    isoDate: "2026-08-02",
+    author: PRAJVI,
+    content: `
+## The Instinct Almost Everyone Has
+
+When markets fall sharply, the instinct is nearly universal: sell now, figure out the rest later. It is also usually the wrong instinct, because it converts a temporary paper loss into a permanent, realized one at exactly the worst possible time.
+
+## Start by Separating Money by Time Horizon
+
+The single most useful question during a crash is not "what should I do with my portfolio" as a whole, but "which parts of my portfolio actually need this money soon."
+
+- **Money needed within the next one to two years** should not have been heavily exposed to equities in the first place, and if it was, that is a planning conversation for after the immediate volatility passes.
+- **Money with a genuine five year or longer horizon** has time to recover, and history shows equity markets have generally done so from past downturns, though this is not a guarantee about any future decline.
+
+## Resist Checking Your Portfolio Daily
+
+Watching a falling portfolio daily amplifies anxiety without giving you any new decision useful information. If your allocation was appropriate for your goals before the crash, it is very likely still appropriate during it.
+
+## A Crash Can Be an Opportunity, Not Just a Threat
+
+For money with a genuinely long horizon, a market fall can be a chance to invest at lower valuations, whether through a lumpsum deployment or by continuing a SIP through the downturn rather than pausing it. Pausing a SIP specifically during a fall means missing exactly the period when you are buying units at a discount.
+
+## What Is Actually Worth Reviewing
+
+- Whether your original asset allocation still matches your risk appetite, not just your return expectations
+- Whether any individual stock or fund in your portfolio has fundamental, business level problems, as opposed to simply moving down with the broader market
+- Whether you have an emergency fund separate from your investments, so a crash never forces you to sell equities at a low point purely to cover near term expenses
+
+## Where a Plan Helps
+
+Having a portfolio built around your specific goals and time horizon in the first place is what makes a crash easier to sit through calmly. This is a core part of how [AKNA Private Wealth](/services/akna-private-wealth) is structured, and our [Research and Ranking](/services/research-ranking) recommendations always come with the reasoning behind them, so you can judge whether a fall is a business problem or simply a market wide one.
+
+All investments in securities markets are subject to market risk. Past market recoveries do not guarantee future outcomes.
+`,
+  },
+  {
+    slug: "how-much-life-insurance-cover-do-you-actually-need",
+    title: "How Much Life Insurance Cover Do You Actually Need?",
+    metaTitle: "How Much Term Insurance Cover Do You Need in India | AKNA Capital",
+    metaDescription:
+      "A flat multiple of your salary is not a real answer. Here is a more grounded way to calculate the term insurance cover your family would actually need.",
+    excerpt: "'Ten times your salary' is not really an answer. Here is a more grounded way to work out the term cover your family would actually need.",
+    category: "Insurance",
+    readTime: "5 min read",
+    date: "August 1, 2026",
+    isoDate: "2026-08-01",
+    author: DESK,
+    content: `
+## Why "Ten Times Your Salary" Falls Short
+
+A common rule of thumb says your term cover should be roughly ten times your annual income. It is easy to remember, but it ignores your actual liabilities, dependents, and existing assets, all of which matter far more than a flat multiple of salary.
+
+## Start With What Your Family Would Actually Need to Replace
+
+Term insurance exists to replace your financial contribution to your family if you are no longer around to provide it. That means the real calculation starts with what your family would need, not a percentage of what you currently earn.
+
+## The Building Blocks of a Real Number
+
+- **Outstanding loans.** Home loans, car loans, or any other debt that would otherwise fall on your family to repay.
+- **Years of dependent expenses.** How many years your spouse, children, or parents would need financial support, multiplied by your family's realistic annual expenses.
+- **Future goals.** Children's education and marriage costs, adjusted for inflation between now and when those goals actually arrive.
+- **Existing assets.** Savings, investments, and any existing cover that would already be available to your family, which reduces how much additional cover you need.
+
+## A Simple Way to Frame the Math
+
+Add up outstanding loans, the future cost of your children's education and other major goals, and enough of a corpus to replace your income for the years your family would need support. Then subtract your existing liquid assets and any current cover. What remains is a far more realistic term cover target than a flat multiple of salary.
+
+## Cover Needs Change Over Time
+
+Your ideal cover is not static. It typically peaks in your thirties and forties, when loans and dependent years are both at their highest, and can be reviewed downward later as loans get repaid and your investment corpus grows. It is worth revisiting every few years, not setting once and forgetting.
+
+## A Note on Timing
+
+Premiums are generally lower the younger and healthier you are when you buy, so delaying a cover decision usually costs more later, not less.
+
+## Where to Get This Right
+
+Working through this calculation properly, rather than defaulting to a rule of thumb, is exactly what [Insurance](/services/insurance) at AKNA Capital helps with, alongside an honest, unbiased comparison of plans across insurers.
+
+Insurance is subject to the terms and conditions of the respective insurer. Please read the policy document carefully before purchase.
+`,
+  },
+  {
+    slug: "nps-vs-ppf-vs-elss-which-tax-saving-investment-fits-you",
+    title: "NPS vs PPF vs ELSS: Which Tax Saving Investment Actually Fits You?",
+    metaTitle: "NPS vs PPF vs ELSS: Best Tax Saving Investment | AKNA Capital",
+    metaDescription:
+      "All three save tax under the old regime, but they lock up your money very differently and suit different goals. Here is how to actually choose between them.",
+    excerpt: "NPS, PPF, and ELSS all save tax, but they lock up your money for very different lengths of time and suit very different goals. Here is how to actually choose.",
+    category: "Wealth Planning",
+    readTime: "6 min read",
+    date: "August 1, 2026",
+    isoDate: "2026-08-01",
+    author: DESK,
+    content: `
+## Three Popular Options, Three Different Purposes
+
+NPS, PPF, and ELSS are three of the most commonly discussed tax saving options under the old tax regime in India. They get compared constantly, but they are built for genuinely different purposes, and the right one for you depends less on which offers the best return and more on what you actually need the money to do.
+
+## Public Provident Fund
+
+- **Lock in period:** 15 years, with limited partial withdrawal allowed after year seven.
+- **Returns:** Government set and revised periodically, considered safe rather than high growth.
+- **Best suited for:** Investors who want a guaranteed, government backed option as one part of a long term, safety focused allocation, not their entire retirement plan.
+
+## National Pension System
+
+- **Lock in period:** Until retirement age, with partial withdrawal allowed only for specific circumstances.
+- **Returns:** Market linked, since your contribution is invested across equity, corporate debt, and government securities based on your chosen allocation.
+- **Best suited for:** Investors specifically building a retirement corpus who are comfortable with a long lock in and some market linked volatility along the way.
+
+## Equity Linked Savings Scheme
+
+- **Lock in period:** Three years, the shortest of the three by a wide margin.
+- **Returns:** Fully market linked, since ELSS funds invest predominantly in equities.
+- **Best suited for:** Investors who want tax saving with meaningfully higher return potential and are comfortable with equity market volatility over just a three year window.
+
+## The Real Decision Factor Is Your Time Horizon and Purpose
+
+Rather than asking which of the three has historically returned the most, a more useful question is what the money is actually for. Retirement specific savings suit NPS. A safe, guaranteed component of a long term plan suits PPF. Tax saving with equity exposure and comparatively faster access suits ELSS. Many investors reasonably use a combination of all three rather than picking just one.
+
+## Where This Fits Into a Broader Plan
+
+Tax saving decisions work best when they are made as part of your overall goal based investment plan, not in isolation every March. This is exactly the kind of coordination [Mutual Fund Investing](/services/mutual-fund-investing) and, for larger portfolios, [AKNA Private Wealth](/services/akna-private-wealth) are built around.
+
+This article is for general understanding of tax saving instruments and is not personalized tax advice. Please consult a tax professional for guidance specific to your situation, and note that tax rules are subject to change.
+`,
+  },
+  {
+    slug: "how-our-in-house-quant-engine-actually-picks-stocks",
+    title: "How an In House Quant Engine Actually Picks Stocks",
+    metaTitle: "How Quant Models Screen and Pick Stocks | AKNA Capital",
+    metaDescription:
+      "Quant investing sounds like a black box from the outside. Here is a plain-English walkthrough of what a quant engine is actually doing when it screens stocks.",
+    excerpt: "Quant investing has a reputation for being an opaque black box. Here is a plain-English look at what a quant engine is actually doing under the hood.",
+    category: "Market Education",
+    readTime: "6 min read",
+    date: "July 31, 2026",
+    isoDate: "2026-07-31",
+    author: AKSHAT,
+    content: `
+## Quant Sounds More Mysterious Than It Is
+
+The word quantitative tends to make investing sound like an opaque black box available only to hedge funds. In practice, quant investing is simply the systematic, data driven application of rules that a skilled analyst might apply manually, but done consistently across hundreds or thousands of stocks instead of a handful.
+
+## What a Quant Engine Actually Screens For
+
+- **Fundamental factors.** Revenue growth, profit margins, debt levels, and return ratios, applied consistently across the entire universe of stocks rather than one company at a time.
+- **Technical factors.** Price trend, momentum, and volume patterns, which flag whether a fundamentally interesting stock is also seeing genuine market participation.
+- **Quantitative factors.** Statistical relationships and patterns in the data itself, built and tested against historical performance rather than a single analyst's intuition.
+
+## Why Screening at Scale Actually Matters
+
+No individual analyst can manually evaluate every listed company against a consistent set of criteria every single day. A quant engine can, which means opportunities that might otherwise be missed simply because nobody got around to looking at that particular stock this month are far less likely to slip through.
+
+## The Analyst Still Has the Final Say
+
+A quant engine narrows thousands of stocks down to a manageable, ranked shortlist. It does not replace human judgment. Our research team reviews that shortlist, applies context the model cannot fully capture, sector dynamics, management quality, recent developments, and only then does a recommendation reach you.
+
+## What Quant Models Are Not Good At
+
+Quant models are built on historical data and defined rules. They can miss genuinely new situations that do not resemble anything in their training history, and they have no opinion on qualitative factors like management integrity or an emerging competitive threat that has not yet shown up in the numbers. This is exactly why the analyst review layer on top of the model matters.
+
+## Where This Shows Up in Our Work
+
+Our in-house Quant Engine, built on 30 plus algorithms, underpins both [Research and Ranking](/services/research-ranking) and [Algo-Trading](/services/algo-trading), screening the market systematically before our research team applies its own judgment on top.
+
+Quantitative models are a tool for identifying opportunities, not a guarantee of returns. All investments in securities markets are subject to market risk.
+`,
+  },
+  {
+    slug: "common-mistakes-first-time-investors-make-in-the-stock-market",
+    title: "Common Mistakes First Time Investors Make in the Stock Market",
+    metaTitle: "Common Beginner Mistakes in Stock Market Investing | AKNA Capital",
+    metaDescription:
+      "Most losses new investors take are not from a single bad stock pick. They come from a handful of repeated, avoidable behavioral mistakes. Here they are.",
+    excerpt: "Most of the damage new investors take does not come from one bad stock pick. It comes from a handful of repeated, entirely avoidable behavioral mistakes.",
+    category: "Market Education",
+    readTime: "6 min read",
+    date: "July 31, 2026",
+    isoDate: "2026-07-31",
+    author: PRAJVI,
+    content: `
+## The Damage Is Usually Behavioral, Not Analytical
+
+New investors often assume that losing money in the stock market comes down to picking the wrong stock. In practice, a handful of repeated behavioral mistakes cause far more damage over time than any single poor pick ever could.
+
+## Investing Without a Clear Goal
+
+Buying stocks because "everyone is talking about it" rather than because it fits a specific financial goal and time horizon leads to a portfolio that is really just a collection of unrelated bets, with no coherent plan behind any of it.
+
+## Chasing Past Performance
+
+A stock or fund that has already run up significantly is not automatically a good investment going forward. Buying purely because something has already performed well is one of the most common ways new investors end up buying near a peak.
+
+## No Diversification, or the Wrong Kind
+
+Owning twenty stocks that all move together because they sit in the same sector is not real diversification, even though it feels like it based on the count alone. Genuine diversification spreads risk across sectors, market capitalizations, and sometimes asset classes.
+
+## Panic Selling During Normal Volatility
+
+Markets fall regularly as a completely normal part of investing. Selling in a panic during an ordinary correction, only to buy back in later at a higher price, is one of the most reliable ways to convert a temporary paper loss into a permanent, realized one.
+
+## Ignoring Fees and Taxes
+
+Frequent trading racks up brokerage costs and short term capital gains tax that quietly erode returns, even when the underlying stock picks were reasonable ones.
+
+## Not Reviewing the Portfolio at All
+
+The opposite mistake is just as common. Setting up a portfolio once and never reviewing it means holding onto underperforming stocks or fully outdated goals for years without noticing.
+
+## The Fix Is Usually Structure, Not Smarter Stock Picks
+
+Most of these mistakes are solved less by finding better individual stocks and more by having a structured process: a clear goal, a diversified plan, and periodic, unemotional review.
+
+## Where to Build This Properly
+
+If you are early in your investing journey and want to build genuine understanding rather than simply following recommendations, our [Stockmarket Workshop](/services/stockmarket-workshop) teaches the fundamental, technical, and quantitative frameworks our own research team actually uses. If you would rather start from research backed recommendations, [Research and Ranking](/services/research-ranking) is built for exactly that.
+
+All investments in securities markets are subject to market risk. Past mistakes are common and avoidable with a more structured approach, but no approach eliminates risk entirely.
+`,
+  },
+  {
+    slug: "large-cap-vs-mid-cap-vs-small-cap-stocks-explained",
+    title: "Large Cap vs Mid Cap vs Small Cap Stocks: What Is the Real Difference?",
+    metaTitle: "Large Cap vs Mid Cap vs Small Cap Stocks Explained | AKNA Capital",
+    metaDescription:
+      "Market capitalization tells you a company's size, but the real differences that matter to investors are risk, liquidity, and growth potential. Here is how they compare.",
+    excerpt: "Market cap tells you a company's size. What actually matters to your portfolio is how differently large, mid, and small cap stocks behave in terms of risk and growth.",
+    category: "Market Education",
+    readTime: "5 min read",
+    date: "July 30, 2026",
+    isoDate: "2026-07-30",
+    author: SMIT,
+    content: `
+## Market Capitalization Is Just a Starting Point
+
+Market capitalization, a company's share price multiplied by its total number of shares, is how stocks get grouped into large cap, mid cap, and small cap categories. But the size label itself is less important than the real differences in risk, liquidity, and growth potential that tend to come with it.
+
+## Large Cap Stocks
+
+These are typically the most established, well known companies in the market. They generally offer more stability and liquidity, along with a longer track record to evaluate, but their sheer size also means dramatic growth is usually harder to come by compared to smaller companies.
+
+## Mid Cap Stocks
+
+Mid cap companies sit between the stability of large caps and the higher growth potential of small caps. They often still have meaningful room to grow market share or expand into new markets, while generally carrying a more established track record and more predictable earnings than small caps.
+
+## Small Cap Stocks
+
+Small cap companies carry the highest growth potential of the three categories, since a relatively modest amount of new business can move their overall numbers significantly. That same characteristic also makes them the most volatile and often the least liquid, meaning prices can swing sharply and buying or selling in size can itself move the price.
+
+## Why This Matters for Portfolio Construction
+
+Concentrating a portfolio entirely in small caps chases growth but takes on outsized volatility and liquidity risk, especially during a market downturn when smaller stocks often fall harder and recover more slowly. Concentrating entirely in large caps sacrifices growth potential for stability. Most well constructed portfolios deliberately blend all three, weighted according to the investor's own risk appetite and time horizon.
+
+## Time Horizon Changes the Right Mix
+
+A longer investment horizon generally allows for a larger allocation to mid and small cap stocks, since there is more time to ride out their higher volatility. A shorter horizon typically calls for a larger large cap allocation, prioritizing stability over maximum growth potential.
+
+## Where This Fits Into Our Research
+
+Our [Research and Ranking](/services/research-ranking) recommendations are ranked with market capitalization and sector context included, precisely so you understand not just what to buy, but where it fits within a properly diversified portfolio.
+
+All investments in securities markets are subject to market risk, and smaller companies in particular can experience significant price volatility.
+`,
+  },
+  {
+    slug: "how-to-build-an-emergency-fund-before-you-start-investing",
+    title: "How to Build an Emergency Fund Before You Start Investing",
+    metaTitle: "How to Build an Emergency Fund in India | AKNA Capital",
+    metaDescription:
+      "Investing before you have an emergency fund often means selling investments at the worst possible time when an unplanned expense hits. Here is how to size and build one first.",
+    excerpt: "Without an emergency fund, an unplanned expense forces you to sell investments at the worst possible time. Here is how much you actually need, and where to keep it.",
+    category: "Wealth Planning",
+    readTime: "5 min read",
+    date: "July 30, 2026",
+    isoDate: "2026-07-30",
+    author: DESK,
+    content: `
+## The Step That Often Gets Skipped
+
+It is tempting to jump straight into SIPs and stock picks, but skipping an emergency fund means an unplanned expense, a medical bill, a sudden job loss, an urgent repair, will likely force you to sell investments at exactly the wrong time, possibly at a loss, purely to raise cash quickly.
+
+## How Much Is Actually Enough
+
+A commonly used range is three to six months of essential monthly expenses, though the right number depends on your specific situation.
+
+- **Salaried with stable income:** Closer to three to four months of expenses is often reasonable.
+- **Variable income, self employed, or the sole earner in your household:** Six months or more is generally more appropriate, given the higher uncertainty around when the next paycheck actually arrives.
+- **Existing dependents or health conditions requiring ongoing care:** Consider building toward the higher end of the range, or beyond it.
+
+## What Counts as an Essential Expense
+
+Rent or loan EMIs, groceries, utilities, insurance premiums, and other genuinely non negotiable monthly costs. Discretionary spending, dining out, entertainment, and vacations, does not need to be part of this calculation, since those are expenses you could pause if needed.
+
+## Where to Actually Keep It
+
+An emergency fund needs to be liquid and stable, not invested for growth. A high interest savings account, a sweep in fixed deposit, or a liquid mutual fund are all reasonable choices. What matters most is that the money is accessible within a day or two without any risk of a market linked loss right when you need it.
+
+## Build It Before, Not Alongside, Aggressive Investing
+
+It is generally more sound to build a full emergency fund before committing meaningfully to equity investing, or at minimum to build both in parallel with a clear priority on the emergency fund. Without it, market volatility and personal financial shocks can end up hitting you at the exact same time.
+
+## Where This Fits Into a Broader Plan
+
+Sizing an emergency fund correctly, alongside a genuine investment plan mapped to your actual goals, is part of what [AKNA Private Wealth](/services/akna-private-wealth) and [Mutual Fund Investing](/services/mutual-fund-investing) at AKNA Capital help you get right from the start.
+
+This article is for general educational purposes. The right emergency fund size depends on your specific income stability, dependents, and existing obligations.
+`,
+  },
+  {
+    slug: "what-is-a-demat-account-and-how-to-open-one-in-india",
+    title: "What Is a Demat Account and How Do You Open One in India?",
+    metaTitle: "What Is a Demat Account? How to Open One in India | AKNA Capital",
+    metaDescription:
+      "You cannot buy or sell shares in India without a demat account. Here is what it actually does, what documents you need, and what to check before choosing a provider.",
+    excerpt: "You cannot legally hold or trade shares in India without a demat account. Here is what it actually does and how to open one without overcomplicating it.",
+    category: "Equity Research",
+    readTime: "5 min read",
+    date: "July 29, 2026",
+    isoDate: "2026-07-29",
+    author: SMIT,
+    content: `
+## What a Demat Account Actually Does
+
+A demat, or dematerialized, account holds your shares and other securities in electronic form, the same way a bank account holds your money digitally rather than as physical cash. You cannot legally buy or hold shares listed on an Indian stock exchange without one.
+
+## Demat Account vs Trading Account
+
+These two are related but do different jobs. A trading account is what you use to place buy and sell orders on the exchange. A demat account is where the shares you have bought actually get held once the trade settles. Most brokers today open both together as a linked pair.
+
+## Documents You Typically Need
+
+- **PAN card**, which is mandatory for any securities market transaction in India
+- **Proof of identity and address**, such as an Aadhaar card, passport, or voter ID
+- **A canceled cheque or recent bank statement**, to link your bank account for payments and payouts
+- **A passport sized photograph and signature**, for KYC verification
+
+Most brokers now complete this entire process online, with video based KYC, so opening an account typically takes well under an hour of actual effort.
+
+## What to Actually Check Before Choosing a Provider
+
+- **Brokerage and account maintenance charges**, which vary meaningfully between providers and add up over time
+- **Platform reliability**, since a platform that lags or crashes during volatile markets is a real cost, not just an inconvenience
+- **Customer support quality**, particularly for anything involving fund transfers or account issues
+- **Research and tool access**, if you want more than a bare bones order placement screen
+
+## A Demat Account Is a Tool, Not a Strategy
+
+Opening a demat account is simply the administrative first step. It does not tell you what to buy, when to buy it, or how much of your surplus should go into equities in the first place. That decision still needs a proper research process behind it.
+
+## Where to Go From Here
+
+Once your account is open, our [Research and Ranking](/services/research-ranking) service gives you ranked, research backed stock recommendations to actually act on, rather than starting from a blank screen. If you would rather build the skill to evaluate stocks yourself first, our [Stockmarket Workshop](/services/stockmarket-workshop) is a good starting point.
+
+This article is for general educational purposes and does not endorse any specific broker or platform. All investments in securities markets are subject to market risk.
+`,
+  },
+  {
+    slug: "old-tax-regime-vs-new-tax-regime-which-should-you-choose",
+    title: "Old Tax Regime vs New Tax Regime: Which Should You Choose?",
+    metaTitle: "Old vs New Tax Regime in India: Which Saves You More | AKNA Capital",
+    metaDescription:
+      "The right regime depends entirely on how many deductions you actually use, not which one sounds simpler. Here is a practical way to decide between them.",
+    excerpt: "There is no universally correct regime. The right one for you depends almost entirely on how many deductions and exemptions you actually use.",
+    category: "Wealth Planning",
+    readTime: "6 min read",
+    date: "July 29, 2026",
+    isoDate: "2026-07-29",
+    author: DESK,
+    content: `
+## There Is No Universally Correct Answer
+
+Every tax season brings the same question: old regime or new regime. The honest answer is that neither is universally better. The right choice depends almost entirely on how many deductions and exemptions you actually claim today.
+
+## What the Old Regime Offers
+
+The old regime allows a wide range of deductions and exemptions, including under sections such as 80C for instruments like ELSS, PPF, and life insurance premiums, 80D for health insurance, HRA for salaried employees paying rent, and the home loan interest deduction, among others. It generally rewards investors who are already actively using these instruments.
+
+## What the New Regime Offers
+
+The new regime offers lower slab rates but removes most of the deductions and exemptions available under the old regime. It tends to suit taxpayers who do not have significant 80C investments, do not pay meaningful rent or home loan interest, or simply prefer a simpler filing process without tracking multiple deduction categories.
+
+## A Practical Way to Decide
+
+- **List out every deduction you would realistically claim** under the old regime this year, including 80C, 80D, HRA, and home loan interest if applicable.
+- **Estimate your tax liability under both regimes** using your actual income and that deduction total, not a generic example.
+- **Compare the two numbers directly.** If your total deductions are substantial, the old regime often works out lower. If they are minimal, the new regime's lower slab rates often win.
+
+## It Is Not a Permanent, One Time Decision
+
+Salaried individuals can generally choose between the two regimes each financial year based on what suits them that year, since your deduction usage can change as your investments, loans, and life circumstances change. It is worth re running this comparison annually rather than assuming last year's choice still holds.
+
+## Where This Fits Into a Broader Plan
+
+Whether the old regime makes sense for you often comes down to whether you are already investing in 80C eligible instruments like ELSS as part of a genuine financial plan, not purely as a tax move. This is exactly the kind of decision [Mutual Fund Investing](/services/mutual-fund-investing) at AKNA Capital can help you think through as part of your broader goals.
+
+This article is for general educational purposes and is not personalized tax advice. Tax rules and slab rates are subject to change; please consult a tax professional or chartered accountant for guidance specific to your income and situation.
+`,
+  },
+  {
+    slug: "how-much-should-you-invest-every-month-based-on-your-income",
+    title: "How Much Should You Actually Invest Every Month Based on Your Income?",
+    metaTitle: "How Much to Invest Monthly Based on Your Salary | AKNA Capital",
+    metaDescription:
+      "There is no single correct percentage that works for everyone. Here is a practical framework for deciding how much of your income should go into a SIP each month.",
+    excerpt: "There is no single magic percentage of income everyone should invest. Here is a more useful framework for arriving at your own number.",
+    category: "Mutual Funds",
+    readTime: "5 min read",
+    date: "July 28, 2026",
+    isoDate: "2026-07-28",
+    author: AKSHAT,
+    content: `
+## Why a Flat Percentage Rarely Works
+
+Generic advice often suggests investing a fixed percentage of income, commonly somewhere around 20 percent. It is a reasonable starting reference point, but your actual number depends heavily on your expenses, existing obligations, and how far away your goals actually are.
+
+## Start With What Is Already Committed
+
+Before deciding an investment amount, account for essential expenses, any existing loan EMIs, and your emergency fund contribution if it is not yet fully built. What remains after these is your genuine investable surplus, not your entire take home income.
+
+## Work Backward From Your Goals, Not Forward From a Percentage
+
+A more reliable approach than picking a flat percentage is working backward from your specific goals. If you know the future cost of a goal, your time horizon, and an assumed rate of return, you can calculate the actual monthly SIP required to reach it, rather than guessing at a round number and hoping it is enough.
+
+Our [SIP Calculator](/market-tools/sip-calculator) and [Education Calculator](/market-tools/education-calculator) let you run this calculation directly for retirement, a child's education, or any other specific goal.
+
+## A Reasonable Starting Range If You Are Unsure
+
+If you do not yet have specific goals mapped out and just want a sensible starting point, investing somewhere between 15 and 30 percent of your take home income is a commonly used range, adjusted up if your goals are ambitious or your horizon is short, and down if you are also aggressively paying off debt or building your emergency fund.
+
+## Increase It as Your Income Grows
+
+A SIP amount fixed once and never revisited quietly loses ground to inflation and to your own rising income over time. Increasing your monthly investment each time your income rises, even by a modest percentage, compounds meaningfully over a long horizon. Our [SIP Step Up Calculator](/market-tools/sip-step-up-calculator) shows exactly how much difference this makes.
+
+## The Real Risk Is Not Investing Too Little Early, It Is Never Reviewing the Number
+
+The specific starting figure matters less than actually starting and then reviewing it periodically. A modest SIP that grows with your income over a decade typically outperforms a larger one that gets set once and forgotten.
+
+## Where to Get This Right for Your Situation
+
+Mapping an actual investment amount to your specific goals, rather than guessing at a round number, is what [Mutual Fund Investing](/services/mutual-fund-investing) at AKNA Capital is built around.
+
+Mutual fund investments are subject to market risk. Please read all scheme related documents carefully before investing.
+`,
+  },
+  {
+    slug: "best-investment-options-in-india-for-beginners",
+    title: "Best Investment Options in India for Beginners",
+    metaTitle: "Best Investment Options for Beginners in India | AKNA Capital",
+    metaDescription:
+      "Starting to invest can feel overwhelming with so many options available. Here is a clear, practical overview of where most beginners in India should actually start.",
+    excerpt: "With so many investment options available, it is easy for a beginner to freeze before starting at all. Here is a clear, practical starting point.",
+    category: "Wealth Planning",
+    readTime: "6 min read",
+    date: "July 28, 2026",
+    isoDate: "2026-07-28",
+    author: DESK,
+    content: `
+## The Real Risk Is Not Starting at All
+
+With mutual funds, direct stocks, PPF, NPS, fixed deposits, and gold all competing for attention, it is easy for a first time investor to freeze from overwhelm rather than actually start. The specific instrument you begin with matters far less than simply beginning with a plan.
+
+## Mutual Funds Through a SIP
+
+For most beginners, a Systematic Investment Plan into mutual funds is one of the more accessible starting points. It allows you to start with a modest monthly amount, benefits from professional fund management, and builds the habit of disciplined, automated investing from day one.
+
+## Direct Equity
+
+Investing directly in individual stocks offers higher potential returns but requires genuine research, either your own or research backed guidance, along with the temperament to sit through individual stock volatility, which is typically higher than a diversified mutual fund.
+
+## Public Provident Fund
+
+A safe, government backed option suited to a portion of your portfolio where capital protection matters more than growth, though its 15 year lock in means it should not be your only savings vehicle.
+
+## National Pension System
+
+Specifically built for retirement savings, combining market linked growth with tax benefits, appropriate for money you genuinely will not need before retirement age.
+
+## Fixed Deposits
+
+Useful for near term goals or as part of your emergency fund, offering predictable, guaranteed returns, though typically lower than what equity markets have historically delivered over long periods.
+
+## Gold
+
+Often used as a small portfolio diversifier rather than a primary investment, since it tends to behave differently from equities during periods of market stress.
+
+## A Practical Starting Sequence
+
+1. **Build your emergency fund first**, in a liquid, low risk instrument.
+2. **Start a SIP into mutual funds** mapped to a specific goal and time horizon, even if the amount is modest to begin with.
+3. **Layer in direct equity or additional instruments** as your knowledge, surplus, and comfort with volatility grow.
+
+## Where to Start This Conversation
+
+If you are unsure where to begin, [Mutual Fund Investing](/services/mutual-fund-investing) is often the most accessible entry point at AKNA Capital, and our [Stockmarket Workshop](/services/stockmarket-workshop) is there if you want to build direct equity understanding alongside it.
+
+All investments in securities markets, and mutual funds in particular, are subject to market risk. Please read all scheme related documents carefully before investing.
+`,
+  },
+  {
+    slug: "how-to-choose-the-right-sebi-registered-research-analyst",
+    title: "How to Choose the Right SEBI Registered Research Analyst in India",
+    metaTitle: "How to Choose a SEBI Registered Research Analyst | AKNA Capital",
+    metaDescription:
+      "Not every source of stock recommendations is regulated or accountable. Here is what to actually check before trusting a research analyst with your investment decisions.",
+    excerpt: "Not every voice giving out stock tips is regulated or accountable for what they recommend. Here is what to actually verify before you trust one with your money.",
+    category: "Equity Research",
+    readTime: "5 min read",
+    date: "July 27, 2026",
+    isoDate: "2026-07-27",
+    author: DESK,
+    content: `
+## Not Every Source of Stock Advice Is Regulated
+
+Stock recommendations circulate constantly, on social media, in forwarded messages, and through unregistered "advisors" with no formal accountability. A SEBI Registered Research Analyst operates under a genuinely different, regulated standard, and knowing what to check helps you tell the difference.
+
+## Verify the SEBI Registration Directly
+
+Every legitimate Research Analyst has a SEBI registration number, and this can be verified directly on SEBI's official website rather than simply taking a claim at face value. This single check filters out a significant amount of unregistered, unaccountable advice.
+
+## Check Their Actual Process, Not Just Their Track Record
+
+A track record alone can be selectively presented. What matters more is whether the analyst can explain their actual process: what research goes into a recommendation, what data and models are used, and what would change their view on a stock. A research led process that you can understand and evaluate is worth more than an unverifiable list of past winners.
+
+## Understand How They Are Compensated
+
+A research analyst's fee structure should be transparent and should not depend on you executing a specific number of trades, which can create an incentive to recommend excessive trading rather than what is actually in your interest.
+
+## Look for Genuine Risk Disclosure
+
+Legitimate research consistently discloses that all investments in securities markets are subject to market risk, and never guarantees returns. Any source promising guaranteed or unusually high returns with no mention of risk is a significant warning sign, regardless of how confident it sounds.
+
+## Ask What Happens After the Recommendation
+
+A one time stock tip with no follow up is very different from an ongoing research relationship that includes entry and exit guidance and regular portfolio review. The latter is a far more genuine research service than the former.
+
+## What This Looks Like at AKNA Capital
+
+AKNA Capital is a SEBI Registered Research Analyst, registration INH000023515, and our [Research and Ranking](/services/research-ranking) service is built around exactly this kind of transparent, explainable, in-house Quant Engine backed process, with entry and exit guidance and regular portfolio reviews rather than one off tips.
+
+All investments in securities markets are subject to market risk. Past performance of any recommendation does not guarantee future results.
+`,
+  },
+  {
     slug: "how-much-is-my-business-worth-valuation-guide",
     title: "How Much Is My Business Worth? A Plain-English Guide to Business Valuation",
     metaTitle: "How to Value a Business in India: A Plain-English Guide | AKNA Capital",

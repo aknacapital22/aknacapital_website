@@ -60,18 +60,33 @@ Available at https://aknacapital.com/market-tools
 
 Available at https://aknacapital.com/blog, written by AKNA Capital's research team (Smit Ruparel, Head of Fundamental Research; Akshat Nahata, Quant & Technical Research; CA Prajvi Nahata, Equity Research & Multibagger Hunting).
 
-1. How Much Is My Business Worth? A Plain-English Guide to Business Valuation — https://aknacapital.com/blog/how-much-is-my-business-worth-valuation-guide
-2. SME IPO vs Main-Board IPO: Which Listing Route Fits Your Company? — https://aknacapital.com/blog/sme-ipo-vs-main-board-ipo-which-fits
-3. Buy-Side vs Sell-Side M&A: Why the Same Advisor Rarely Works for Both — https://aknacapital.com/blog/buy-side-vs-sell-side-ma-why-one-advisor-rarely-works-for-both
-4. 12 to 24 Months Before Your IPO: What "IPO Ready" Actually Means — https://aknacapital.com/blog/what-ipo-ready-actually-means-12-24-months-out
-5. SIP vs Lumpsum: Which Should You Choose in a Volatile Market? — https://aknacapital.com/blog/sip-vs-lumpsum-volatile-market
-6. Diversification Isn't Just Buying More Stocks — https://aknacapital.com/blog/diversification-beyond-buying-more-stocks
-7. Technical Analysis 101: Reading Price Action Without the Hype — https://aknacapital.com/blog/technical-analysis-101-reading-price-action
-8. How Much Should You Actually Save for Retirement in India? — https://aknacapital.com/blog/how-much-to-save-for-retirement-india
-9. What Is Algo-Trading and Is It Right for You? — https://aknacapital.com/blog/what-is-algo-trading-is-it-right-for-you
-10. Why a Regular SIP Might Not Be Enough: The Case for Enhanced SIP — https://aknacapital.com/blog/enhanced-sip-vs-regular-sip
-11. Term Insurance vs Investment-cum-Insurance: What Actually Protects Your Family — https://aknacapital.com/blog/term-insurance-vs-investment-cum-insurance
-12. How to Read a Stock Beyond the Price Chart: A Beginner's Guide to Fundamental Analysis — https://aknacapital.com/blog/fundamental-analysis-beyond-the-price-chart
+1. When Is the Right Time to Sell Your Business? Five Signs to Watch — https://aknacapital.com/blog/when-is-the-right-time-to-sell-your-business
+2. Due Diligence Checklist Before You Buy a Business in India — https://aknacapital.com/blog/due-diligence-checklist-before-buying-a-business
+3. How to Backtest a Trading Strategy Before You Go Live — https://aknacapital.com/blog/how-to-backtest-a-trading-strategy-before-going-live
+4. What Should You Do With Your Portfolio When the Market Crashes? — https://aknacapital.com/blog/what-to-do-with-your-portfolio-when-the-market-crashes
+5. How Much Life Insurance Cover Do You Actually Need? — https://aknacapital.com/blog/how-much-life-insurance-cover-do-you-actually-need
+6. NPS vs PPF vs ELSS: Which Tax Saving Investment Actually Fits You? — https://aknacapital.com/blog/nps-vs-ppf-vs-elss-which-tax-saving-investment-fits-you
+7. How an In House Quant Engine Actually Picks Stocks — https://aknacapital.com/blog/how-our-in-house-quant-engine-actually-picks-stocks
+8. Common Mistakes First Time Investors Make in the Stock Market — https://aknacapital.com/blog/common-mistakes-first-time-investors-make-in-the-stock-market
+9. Large Cap vs Mid Cap vs Small Cap Stocks: What Is the Real Difference? — https://aknacapital.com/blog/large-cap-vs-mid-cap-vs-small-cap-stocks-explained
+10. How to Build an Emergency Fund Before You Start Investing — https://aknacapital.com/blog/how-to-build-an-emergency-fund-before-you-start-investing
+11. What Is a Demat Account and How Do You Open One in India? — https://aknacapital.com/blog/what-is-a-demat-account-and-how-to-open-one-in-india
+12. Old Tax Regime vs New Tax Regime: Which Should You Choose? — https://aknacapital.com/blog/old-tax-regime-vs-new-tax-regime-which-should-you-choose
+13. How Much Should You Actually Invest Every Month Based on Your Income? — https://aknacapital.com/blog/how-much-should-you-invest-every-month-based-on-your-income
+14. Best Investment Options in India for Beginners — https://aknacapital.com/blog/best-investment-options-in-india-for-beginners
+15. How to Choose the Right SEBI Registered Research Analyst in India — https://aknacapital.com/blog/how-to-choose-the-right-sebi-registered-research-analyst
+16. How Much Is My Business Worth? A Plain-English Guide to Business Valuation — https://aknacapital.com/blog/how-much-is-my-business-worth-valuation-guide
+17. SME IPO vs Main-Board IPO: Which Listing Route Fits Your Company? — https://aknacapital.com/blog/sme-ipo-vs-main-board-ipo-which-fits
+18. Buy-Side vs Sell-Side M&A: Why the Same Advisor Rarely Works for Both — https://aknacapital.com/blog/buy-side-vs-sell-side-ma-why-one-advisor-rarely-works-for-both
+19. 12 to 24 Months Before Your IPO: What "IPO Ready" Actually Means — https://aknacapital.com/blog/what-ipo-ready-actually-means-12-24-months-out
+20. SIP vs Lumpsum: Which Should You Choose in a Volatile Market? — https://aknacapital.com/blog/sip-vs-lumpsum-volatile-market
+21. Diversification Isn't Just Buying More Stocks — https://aknacapital.com/blog/diversification-beyond-buying-more-stocks
+22. Technical Analysis 101: Reading Price Action Without the Hype — https://aknacapital.com/blog/technical-analysis-101-reading-price-action
+23. How Much Should You Actually Save for Retirement in India? — https://aknacapital.com/blog/how-much-to-save-for-retirement-india
+24. What Is Algo-Trading and Is It Right for You? — https://aknacapital.com/blog/what-is-algo-trading-is-it-right-for-you
+25. Why a Regular SIP Might Not Be Enough: The Case for Enhanced SIP — https://aknacapital.com/blog/enhanced-sip-vs-regular-sip
+26. Term Insurance vs Investment-cum-Insurance: What Actually Protects Your Family — https://aknacapital.com/blog/term-insurance-vs-investment-cum-insurance
+27. How to Read a Stock Beyond the Price Chart: A Beginner's Guide to Fundamental Analysis — https://aknacapital.com/blog/fundamental-analysis-beyond-the-price-chart
 
 ## Why AKNA Capital
 
