@@ -1,5 +1,11 @@
 import { Link } from "wouter";
-import { Phone, Mail, MapPin, ShieldCheck, BadgeCheck, Linkedin, Youtube } from "lucide-react";
+import { Phone, Mail, MapPin, ShieldCheck, BadgeCheck, Linkedin, Youtube, MessageCircle } from "lucide-react";
+
+const WA_NUMBER = "918989496800";
+const WA_MESSAGE = encodeURIComponent(
+  "Hi AKNA Capital, I'd like to know more about your services. Can we set up a quick call?"
+);
+const WA_URL = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
 
 const logoUrl = "/logo.jpg";
 
@@ -106,6 +112,12 @@ export function Footer() {
                 <Mail className="w-4 h-4 text-primary shrink-0" />
                 <a href="mailto:business@aknacapital.com" className="text-background/70 hover:text-primary transition-colors text-sm break-all">
                   business@aknacapital.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <MessageCircle className="w-4 h-4 text-primary shrink-0" />
+                <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="text-background/70 hover:text-primary transition-colors text-sm">
+                  WhatsApp +91-8989496800
                 </a>
               </li>
               <li className="flex items-start gap-3">

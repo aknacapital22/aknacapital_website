@@ -23,6 +23,7 @@ export function useSendContactMessage() {
 
       const formData = new URLSearchParams();
       formData.append("form-name", "contact");
+      formData.append("bot-field", "");
       formData.append("name", data.name);
       formData.append("email", data.email);
       formData.append("phone", data.phone ?? "");

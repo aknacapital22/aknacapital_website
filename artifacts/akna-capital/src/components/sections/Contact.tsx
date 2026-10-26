@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Loader2, Phone, Mail, MapPin, CheckCircle2, ShieldCheck } from "lucide-react";
+import { Loader2, Phone, Mail, MapPin, CheckCircle2, ShieldCheck, MessageCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useSendContactMessage, contactFormSchema, type ContactFormValues } from "@/hooks/use-contact";
 
@@ -16,6 +16,12 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+
+const WA_NUMBER = "918989496800";
+const WA_MESSAGE = encodeURIComponent(
+  "Hi AKNA Capital, I'd like to know more about your services. Can we set up a quick call?"
+);
+const WA_URL = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
 
 export function Contact() {
   const { toast } = useToast();
@@ -100,6 +106,23 @@ export function Contact() {
                     <p className="text-sm text-muted-foreground font-medium">Email Us</p>
                     <a href="mailto:business@aknacapital.com" className="text-lg font-semibold text-foreground hover:text-primary transition-colors break-all">
                       business@aknacapital.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-[#25D366]/10 flex items-center justify-center">
+                    <MessageCircle className="w-5 h-5 text-[#25D366]" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground font-medium">WhatsApp Us</p>
+                    <a
+                      href={WA_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lg font-semibold text-foreground hover:text-[#25D366] transition-colors"
+                    >
+                      +91-8989496800
                     </a>
                   </div>
                 </div>
